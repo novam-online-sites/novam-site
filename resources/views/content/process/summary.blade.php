@@ -17,8 +17,7 @@
                     <div class="content">
                         <h3>1: Analyze Your Need </h3>
                         <div class="text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>We start with your ideas and your current business/site status. Then we figure out what you need short term and long term</p>
                         </div>
                         <div class="link"><a href="global-projects.html" class="thm-btn inverse"><i class="fa fa-caret-right text-text-thmed"></i>
                                 READY...</a></div>
@@ -31,8 +30,7 @@
                     <div class="content">
                         <h3>2: Explore Solutions </h3>
                         <div class="text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>We, then, show you what we currently offer, and help you decide what to suite your needs. And where your efforts to focus.</p>
                         </div>
                         <div class="link"><a href="events.html" class="read-more thm-btn normal-btn"><span class="fa fa-caret-right"></span>
                                ...SET...</a></div>
@@ -46,8 +44,7 @@
                     <div class="content">
                         <h3>3: Choose A Plan</h3>
                         <div class="text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Finally, you decide how you want to invest your time and money and how we can help you proceed</p>
                         </div>
                         <div class="link"><a href="global-projects.html" class="read-more thm-btn inverse"><span
                                     class="fa fa-caret-right"></span> ...GO!</a></div>
