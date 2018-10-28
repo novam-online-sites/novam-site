@@ -4,7 +4,7 @@
                 <div class="sec-title text-center wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms"
                     style="margin-bottom:20px;">
                     <span class="double-line"></span>
-                    &ensp; <h2>How To Get Started</h2> &ensp;
+                    &ensp; <h2>What we do</h2> &ensp;
                     <span class="double-line"></span>
                     <p class="text-center pb-20">Just in case you don't know where to start, what you should do, how much time and/or money it will cost.</p>
                 </div>
