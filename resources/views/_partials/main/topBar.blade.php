@@ -13,8 +13,7 @@
             <ul class="float-right">
                 <li><a href="#"><i class="fa fa-comment"></i> Live Chat</a></li>
                 <li><a href="#"><i class="fa fa-headphones"></i> Support</a></li>
-                <li><a href="faq.html">Faq</a></li>
-                <li><a href="#">Help</a></li>
+                <li><a href="#"><i class="fa fa-question"></i> FAQ|Help</a></li>
             </ul>
         </div>
     </div>

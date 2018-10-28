@@ -60,20 +60,20 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 51);
+/******/ 	return __webpack_require__(__webpack_require__.s = 45);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 51:
+/***/ 45:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(52);
+module.exports = __webpack_require__(46);
 
 
 /***/ }),
 
-/***/ 52:
+/***/ 46:
 /***/ (function(module, exports) {
 
 (function () {
@@ -357,7 +357,7 @@ if ($('.lightbox-image').length) {
 
 // 4 Gallery Filters
 if ($('.filter-list').length) {
-    $('.filter-list').mixItUp({});
+    var mixer = mixitup('.filter-list');
 }
 
 // 5 accrodion

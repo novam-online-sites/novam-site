@@ -20937,7 +20937,11 @@ a.text-dark:focus {
 }
 
 .logo-img {
-  float: left;
-  max-height: 2rem;
+  max-height: 3rem;
+}
+
+.logo h1 {
+  line-height: 1;
+  margin-top: 1rem;
 }
 

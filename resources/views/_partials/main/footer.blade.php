@@ -83,6 +83,6 @@
 
     <div class="footer-bottom">
         <div class="container text-center">
-            <p>© 2018 pixxles - ALL RIGHTS RESERVED</p>
+            <p>&copy; 2016 - {{ date('Y') }} {{ config('app.name') }} - ALL RIGHTS RESERVED</p>
         </div>
     </div>
