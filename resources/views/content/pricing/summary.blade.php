@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 wow slideInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
+                <div class="col-md-3 col-sm-6 wow zoomInRight" data-wow-delay="200ms" data-wow-duration="2500ms">
                     <div class="pricingTable">
                         <div class="pricingTable-header">
                             <div class="heading">
@@ -57,7 +57,7 @@
                         </div><!-- BUTTON BOX-->
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 wow slideInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
+                <div class="col-md-3 col-sm-6 wow zoomInLeft" data-wow-delay="200ms" data-wow-duration="2500ms">
                     <div class="pricingTable">
                         <div class="pricingTable-header">
                             <div class="heading">
@@ -108,5 +108,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="py-3 text-center">
+            <p>To recieve a one-time price quote please contact us via chat, email or phone</p>
         </div>
     </div>

@@ -15,12 +15,14 @@
 
 <section class="about sec-padding">
     @include('content.webtech.summary', [
-    'odd' => true, 'heading' => 'Web analysis and marketing'
+    'odd' => true, 'heading' => 'Web analysis and marketing',
+    'content' => '<p>In this age of web technology, security is becoming increasingly inportant. So much so tht SEO now depends on it to rank your site Our group can help you achieve and exceed expectations.</p>'
     ])
     <!-- Container -->
 </section>
 
-<section style="background-url(//placehold.it/2000X300/000000)" class="footer-call-to-action wow fadeIn bg-image"
+<section style="background-image:url(/images/network-security.jpg)"
+    class="footer-call-to-action wow fadeIn bg-image"
     data-wow-delay="200ms" data-wow-duration="1500ms">
     <div class="container">
         <div class="row">
@@ -41,7 +43,51 @@
     <!-- Container -->
 </section>
 
-<section style="background-url: url(//placehold.it/200X300/000000)" class="footer-call-to-action bg-image">
+<section style="background-image:url(/images/network-security.jpg)" class="footer-call-to-action wow fadeIn bg-image"
+    data-wow-delay="200ms" data-wow-duration="1500ms">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Here will be any kind lorem ipsum heading</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have lorem</p>
+                <a href="#" class="thm-btn inverse mt-15 mr-15">Join Now</a> &nbsp;
+                <a href="#" class="thm-btn normal-btn mt-15">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about sec-padding">
+    @include('content.webtech.summary', [
+    'odd' => true, 'heading' => 'Site Hosting & Maintanance'
+    ])
+    <!-- Container -->
+</section>
+
+<section style="background-image:url(/images/network-security.jpg)" class="footer-call-to-action wow fadeIn bg-image"
+    data-wow-delay="200ms" data-wow-duration="1500ms">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Here will be any kind lorem ipsum heading</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have lorem</p>
+                <a href="#" class="thm-btn inverse mt-15 mr-15">Join Now</a> &nbsp;
+                <a href="#" class="thm-btn normal-btn mt-15">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{--  <section style="background-image: url(//placehold.it/200X300/000000)" class="footer-call-to-action bg-image">
+    @include('content.promos.summary')
+</section>  --}}
+
+
+<section class="testimonials wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+    @include('content.clients.reviews')
+</section>
+
+<section style="background-image: url(/images/network-security.jpg)" class="footer-call-to-action bg-image">
 
     <div class="container">
         <div class="row">
@@ -60,25 +106,12 @@
     </div>
 </section>
 
-<section class="about sec-padding">
-    @include('content.webtech.summary', [
-    'odd' => true, 'heading' => 'Site Hosting & Maintanance'
-    ])
-    <!-- Container -->
-</section>
-
-<section style="background-url: url(//placehold.it/200X300/000000)" class="footer-call-to-action bg-image">
-
-    @include('content.promos.summary')
-</section>
-
-
-<section class="testimonials wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-    @include('content.clients.reviews')
-</section>
-
 <section style="background: #f1f1f1" class="home-serivce sec-padding pb-0">
     @include('content.pricing.summary')
+</section>
+
+<section style="background-image: url(/images/network-security.jpg)" class="footer-call-to-action bg-image">
+    @include('content.promos.summary')
 </section>
 
 <!--Blog Section-->
@@ -89,6 +122,6 @@
 
 <!--Start call to action Area-->
 <div class="footer-call-to-action">
-    @include('content.promos.summary')
+
 </div>
 @endsection

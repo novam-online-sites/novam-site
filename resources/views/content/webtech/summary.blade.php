@@ -9,8 +9,8 @@
     <div class="row">
         @empty($odd)
             <div class="col-md-6 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <img alt="Case" class="img-Yoga" src="{{ asset('images/web-app-tech.png') }}">
-        </div>
+                <img alt="Case" class="img-Yoga" src="{{ asset('images/web-app-tech.png') }}">
+            </div>
         @endempty
         <!-- Column -->
         <div class="col-md-6 wow zoomIn" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -22,11 +22,12 @@
                     </h3>
                     <span class="separator line-separator"></span>
                 </div>
-                <p>We don't just build websites and web applications for today's needs, we prepare you for the future.
+                {!! $content ?? '' !!}
+                {{--  <p>We don't just build websites and web applications for today's needs, we prepare you for the future.
                     We use the best of the latest technologies to make sure you stay ahead</p>
                 <p>Have you ever built a site that becomes outdated, and updating it require you start from scratch?</p>
                 <p>Have you ever wanted to add a few new features or update some portions of your site but you were
-                    told you would have to start from scratch?</p>
+                    told you would have to start from scratch?</p>  --}}
             </div>
             <!-- Title -->
             <p><a class="mt-20 btn thm-btn inverse" href="about.html">Read More</a></p>

@@ -1,7 +1,7 @@
 /*===================================================================================*/
-/*  GREEN Color #a1cf68
+/*  GREEN Color $primary
 /*===================================================================================*/
-
+@import 'variables';
 
 .switch-field {
     overflow: hidden;
@@ -49,7 +49,7 @@
 }
 
 .switch-field input:checked+label {
-    background-color: #a1cf68;
+    background-color: $primary;
     -webkit-box-shadow: none;
     box-shadow: none;
     color: #fff;
@@ -65,7 +65,7 @@
 
 .bx-controls .bx-controls-direction .bx-prev:hover,
 .bx-controls .bx-controls-direction .bx-next:hover {
-    background-color: #a1cf68;
+    background-color: $primary;
     color: #fff !important;
 }
 
@@ -80,7 +80,7 @@
     width: 80px;
     background-color: #f5f5f5;
     padding: 15px 11px;
-    border: 1px solid #a1cf68;
+    border: 1px solid $primary;
     border-left: none;
     line-height: 24px;
     text-align: center;
@@ -90,7 +90,7 @@
     top: -25px;
     font-size: 14px;
     text-align: center;
-    background: #a1cf68;
+    background: $primary;
     color: #fff;
     width: 78px;
     right: 10px;
@@ -103,14 +103,14 @@
     padding: 4px 8px 2px 4px;
     font-size: 16px;
     display: block;
-    background-color: #a1cf68;
+    background-color: $primary;
     color: #fff;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
 }
 
 .text-thm {
-    color: #a1cf68;
+    color: $primary;
     width: 100% !important;
 }
 
@@ -123,11 +123,11 @@
 }
 
 .bg-thm {
-    background: #a1cf68;
+    background: $primary;
 }
 
 .thm-btn {
-    background: #a1cf68;
+    background: $primary;
     border-radius: 30px;
     display: inline-block;
     color: #fff;
@@ -145,20 +145,20 @@
 .thm-btn:hover,
 .thm-btn.inverse {
     background-color: #fff;
-    border-color: #a1cf68;
-    color: #a1cf68;
+    border-color: $primary;
+    color: $primary;
 }
 
 .thm-btn:active,
 .thm-btn:focus {
     background-color: #fff;
-    border-color: #a1cf68;
-    color: #a1cf68;
+    border-color: $primary;
+    color: $primary;
 }
 
 .thm-btn.inverse:hover {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     color: #fff;
 }
 
@@ -168,12 +168,12 @@
     display: inline-block;
     width: 30px;
     height: 6px;
-    border-top: 1px solid #a1cf68;
-    border-bottom: 1px solid #a1cf68;
+    border-top: 1px solid $primary;
+    border-bottom: 1px solid $primary;
 }
 
 .single-line-bottom::after {
-    background: #a1cf68 none repeat scroll 0 0;
+    background: $primary none repeat scroll 0 0;
     content: "";
     height: 2px;
     left: 121px;
@@ -183,7 +183,7 @@
 }
 
 .double-line-bottom::before {
-    background: #a1cf68 none repeat scroll 0 0;
+    background: $primary none repeat scroll 0 0;
     content: "";
     height: 1px;
     position: absolute;
@@ -192,7 +192,7 @@
 }
 
 .double-line-bottom::after {
-    background: #a1cf68 none repeat scroll 0 0;
+    background: $primary none repeat scroll 0 0;
     content: "";
     height: 1px;
     left: 0;
@@ -202,11 +202,11 @@
 }
 
 .border-thm {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .demo-img:hover img {
-    box-shadow: 0 6px 6px 0 #a1cf68;
+    box-shadow: 0 6px 6px 0 $primary;
     transition: all .3s ease;
 }
 
@@ -224,37 +224,37 @@
 
 .social-icons ul li a:hover {
     color: #fff;
-    background: #a1cf68;
+    background: $primary;
 }
 
 .single-header-info .icon-box .inner-box i:before {
     font-size: 30px;
-    color: #a1cf68;
+    color: $primary;
 }
 
 .mainmenu-area {
     background: #262F36;
-    border-bottom: 4px solid #a1cf68;
+    border-bottom: 4px solid $primary;
 }
 
 .navigation .nav-header>ul>li:hover>a {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .navigation .nav-header>ul>li>ul>li:hover>a {
-    background: #a1cf68;
+    background: $primary;
     color: #fff;
     border-color: 0;
 }
 
 .navigation .nav-header>ul>li>ul>li>ul>li:hover>a {
-    background: #a1cf68;
+    background: $primary;
     color: #fff;
     border-color: 0;
 }
 
 .donate-btn .thm-btn {
-    background: #a1cf68;
+    background: $primary;
     border-radius: 0;
     display: inline-block;
     color: #fff;
@@ -270,20 +270,20 @@
 .thm-btn:hover,
 .thm-btn.inverse {
     background-color: #fff;
-    border-color: #a1cf68;
-    color: #a1cf68;
+    border-color: $primary;
+    color: $primary;
 }
 
 .thm-btn:active,
 .thm-btn:focus {
     background-color: #fff;
-    border-color: #a1cf68;
-    color: #a1cf68;
+    border-color: $primary;
+    color: $primary;
 }
 
 .thm-btn.inverse:hover {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     color: #fff;
 }
 
@@ -291,33 +291,33 @@
     background-color: rgba(255, 255, 255, 0.7);
     font-size: 30px;
     font-weight: 600;
-    color: #a1cf68;
+    color: $primary;
     font-family: 'Raleway';
     padding: 0 10px;
     text-transform: capitalize;
 }
 
 .featured-three-column .column:nth-child(even) .inner-box {
-    background: #a1cf68;
+    background: $primary;
     color: #ffffff;
 }
 
 .featured-three-column .column .normal-btn:hover {
     background: #ffffff;
-    color: #a1cf68;
-    border-color: #a1cf68;
+    color: $primary;
+    border-color: $primary;
 }
 
 .event:hover .event-title a {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .event .event-content .event-held li i {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .event .event-content .date {
-    background-color: #a1cf68;
+    background-color: $primary;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -327,7 +327,7 @@
 }
 
 .event .event-thumb .date {
-    background-color: #a1cf68;
+    background-color: $primary;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -339,10 +339,10 @@
 .single-service-home .inner-box {
     width: 65px;
     height: 65px;
-    border: 2px solid #a1cf68;
+    border: 2px solid $primary;
     background: #ffffff;
     text-align: center;
-    color: #a1cf68;
+    color: $primary;
     line-height: 63px;
     margin-right: 27px;
     position: relative;
@@ -350,13 +350,13 @@
 }
 
 .single-service-home:hover .inner-box {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     color: #ffffff;
 }
 
 .single-service-home .content a {
-    color: #a1cf68;
+    color: $primary;
     font-size: 14px;
     float: right;
     text-transform: capitalize;
@@ -365,16 +365,16 @@
 }
 
 .faq-home .accrodion.active .accrodion-title h4 span.inner {
-    background: #a1cf68;
+    background: $primary;
 }
 
 .faq-home.faq-page .accrodion.active .accrodion-title h4 .text {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .charity-count h1,
 .charity-count-white h1 {
-    color: #a1cf68;
+    color: $primary;
     font-family: "PT Serif", sans-serif;
     font-size: 65px;
     font-weight: 700;
@@ -383,7 +383,7 @@
 
 .charity-text p {
     font-family: "Poppins", sans-serif;
-    color: #a1cf68;
+    color: $primary;
     font-weight: 600;
     line-height: 20px;
     margin: 0;
@@ -392,7 +392,7 @@
 }
 
 .charity-count h1::before {
-    background: #a1cf68 none repeat scroll 0 0;
+    background: $primary none repeat scroll 0 0;
     content: "";
     height: 5px;
     left: 40px;
@@ -407,7 +407,7 @@
     height: 40px;
     margin-right: 8px;
     background: #fff;
-    color: #a1cf68;
+    color: $primary;
     border: 1px solid #fff;
     line-height: 38px;
     font-size: 18px;
@@ -416,14 +416,14 @@
 }
 
 .single-team-member .img-box .overlay .box .content ul li a:hover {
-    background: #a1cf68;
+    background: $primary;
     border-color: #fff;
     color: #fff;
 }
 
 .single-team-member>span {
     font-size: 13px;
-    color: #a1cf68;
+    color: $primary;
     text-transform: capitalize;
     display: block;
     padding-bottom: 15px;
@@ -433,17 +433,17 @@
 
 
 .single-team-member a.thm-btn:hover {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     color: #fff;
 }
 
 .owl-theme .owl-nav [class*=owl-] {
-    background: #a1cf68;
+    background: $primary;
     color: #fff;
     width: 45px;
     height: 45px;
-    border: 2px solid #a1cf68;
+    border: 2px solid $primary;
     font-size: 22px;
     line-height: 43px;
     padding: 0;
@@ -454,14 +454,14 @@
 
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: #fff;
-    color: #a1cf68;
+    color: $primary;
 }
 
 .single-testimonaials .qoute-box {
     width: 60px;
     height: 60px;
     text-align: center;
-    color: #a1cf68;
+    color: $primary;
     background: #fff;
     line-height: 60px;
     -webkit-box-shadow: 0 0 7px -2px rgba(0, 0, 0, .2);
@@ -478,17 +478,17 @@
     width: 10px;
     height: 10px;
     background: #fff;
-    border: 2px solid #a1cf68;
+    border: 2px solid $primary;
     border-radius: 50%;
 }
 
 .testimonaials-carousel .owl-dots .owl-dot:hover span,
 .testimonaials-carousel .owl-dots .owl-dot.active span {
-    background: #a1cf68;
+    background: $primary;
 }
 
 .social-links i.mysocial_style:hover {
-    background: #a1cf68;
+    background: $primary;
     border: 1px solid #403859;
 }
 
@@ -502,32 +502,32 @@
 }
 
 .single-volenteer:hover .volenteer-name {
-    background: #a1cf68;
+    background: $primary;
 }
 
 .footer-call-to-action {
-    background: #a1cf68;
+    background: $primary;
     padding: 28px 0;
 }
 
 .footer-widget .social li a:hover {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     color: #fff;
 }
 
 .footer-widget.quick-links ul li a:hover {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .footer-widget.latest-post ul li a:hover {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .footer-widget.contact-widget button {
     width: 100%;
     height: 50px;
-    background: #a1cf68;
+    background: $primary;
     color: #fff;
     text-transform: uppercase;
     font-size: 13px;
@@ -541,17 +541,17 @@
 
 .footer-widget.contact-widget button:hover {
     background: #fff;
-    color: #a1cf68;
+    color: $primary;
 }
 
 .footer-bottom a {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .home-appointment-form .form-grp .single-form button {
     width: 152px;
     height: 55px;
-    background: #a1cf68;
+    background: $primary;
     border: none;
     outline: none;
     color: #fff;
@@ -565,41 +565,41 @@
     font-weight: normal;
     font-size: 14px;
     color: #fff;
-    background: #a1cf68;
-    border-bottom: 1px solid #a1cf68;
-    border-top: 1px solid #a1cf68;
+    background: $primary;
+    border-bottom: 1px solid $primary;
+    border-top: 1px solid $primary;
 }
 
 /* 24 date picker styles */
 
 .ui-datepicker-header {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     border-radius: 0;
 }
 
 .ui-datepicker .ui-state-highlight {
-    background: #a1cf68;
+    background: $primary;
     color: #fff;
 }
 
 .breadcumb li a {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .about-content img {
-    border: solid 3px #a1cf68;
+    border: solid 3px $primary;
     width: 100%;
 }
 
 .volunteer-profile ul.social li:hover a {
-    background: #a1cf68;
+    background: $primary;
 }
 
 .contact-content .contact-info li .icon-box .inner {
     width: 70px;
     height: 70px;
-    background: #a1cf68;
+    background: $primary;
     border-radius: 50%;
     text-align: center;
     line-height: 70px;
@@ -611,8 +611,8 @@
 .single-sidebar-widget.search button {
     width: 66px;
     height: 55px;
-    border: 1px solid #a1cf68;
-    background: #a1cf68;
+    border: 1px solid $primary;
+    background: $primary;
     padding: 0;
     line-height: 53px;
     text-align: center;
@@ -623,32 +623,32 @@
 }
 
 .single-sidebar-widget.category ul li a:hover {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .single-sidebar-widget.archive ul li a:hover {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .single-sidebar-widget.popular-post ul li .content-box h4:hover {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .single-sidebar-widget.popular-post ul li .content-box span {
-    color: #a1cf68;
+    color: $primary;
     font-size: 14px;
     display: inline-block;
     line-height: 26px;
 }
 
 .single-sidebar-widget.tags ul li a:hover {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     color: #fff;
 }
 
 #single_Service .service_sideber .services_lis ul li i {
-    color: #a1cf68;
+    color: $primary;
     font-size: 18px;
     font-weight: normal;
     padding-left: 10px;
@@ -658,7 +658,7 @@
 
 #single_Service .service_sideber .services_lis ul li.active a,
 #single_Service .service_sideber .services_lis ul li a:hover {
-    background: #a1cf68;
+    background: $primary;
     color: #fff;
     transition: all ease-in 300ms;
     -webkit-transition: all ease-in 300ms;
@@ -671,7 +671,7 @@
     font-weight: 600;
     color: #fff;
     text-align: center;
-    background: #a1cf68;
+    background: $primary;
     height: 55px;
     padding-top: 15px;
 }
@@ -682,7 +682,7 @@
     font-weight: 600;
     color: #fff;
     text-align: center;
-    background: #a1cf68;
+    background: $primary;
     width: 100%;
     height: 45px;
     border: 0px solid;
@@ -690,14 +690,14 @@
 }
 
 #single_Service .service_sideber .question_Box .qustion_list ul li i {
-    color: #a1cf68;
+    color: $primary;
     float: left;
 
 }
 
 #single_Service .service_mainconetent .about_promo_box h2 {
     font-weight: 400;
-    color: #a1cf68;
+    color: $primary;
     font-size: 28px;
     line-height: 40px;
     padding: 10px 0;
@@ -707,8 +707,8 @@
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    border: 1px solid #a1cf68;
-    color: #a1cf68;
+    border: 1px solid $primary;
+    color: $primary;
     text-align: center;
     font-size: 16px;
 }
@@ -716,7 +716,7 @@
 .service_table .thead-inverse tr th {
     font-family: 'Raleway';
     font-size: 20px;
-    color: #a1cf68;
+    color: $primary;
     font-weight: 600;
     border-bottom: 0px solid;
 }
@@ -725,8 +725,8 @@
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    border: 1px solid #a1cf68;
-    color: #a1cf68;
+    border: 1px solid $primary;
+    color: $primary;
     text-align: center;
     font-size: 16px;
     padding-left: 2px;
@@ -736,9 +736,9 @@
 
 .gallery-section .filter-tabs li:hover,
 .gallery-section .filter-tabs li.active {
-    border-color: #a1cf68;
+    border-color: $primary;
     color: #ffffff;
-    background: #a1cf68;
+    background: $primary;
 }
 
 .gallery-section .image-box .btn-zoom .icon {
@@ -750,11 +750,11 @@
     display: inline-block;
     top: 50%;
     margin-top: -15px;
-    color: #a1cf68;
+    color: $primary;
 }
 
 .urgent-cause .causes-details .p-title {
-    color: #a1cf68;
+    color: $primary;
     margin-bottom: 15px;
     text-transform: capitalize;
 }
@@ -763,7 +763,7 @@
     display: inline-block;
     width: 30px;
     height: 30px;
-    color: #a1cf68;
+    color: $primary;
     border: 1px solid #CACFD3;
     line-height: 30px;
     text-align: center;
@@ -774,13 +774,13 @@
 }
 
 .urgent-cause .social li a:hover {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     color: #fff;
 }
 
 .urgent-cause .progress-item .progress-bar {
-    background-color: #a1cf68;
+    background-color: $primary;
     border-radius: 8px 0 0 8px;
     font-size: 12px;
     height: 15px;
@@ -797,7 +797,7 @@
 }
 
 .urgent-cause .progress-item .progress-bar .value-holder {
-    background-color: #a1cf68;
+    background-color: $primary;
     color: #333;
     font-size: 10px;
     line-height: 8px;
@@ -810,7 +810,7 @@
 }
 
 .recent-causes {
-    border-bottom: 3px solid #a1cf68;
+    border-bottom: 3px solid $primary;
     border-radius: 0 0 2px 2px;
     margin-bottom: 30px;
     min-height: 380px;
@@ -819,12 +819,12 @@
 }
 
 .recent-causes .donate-piechart .piechart-block {
-    background-color: #a1cf68;
+    background-color: $primary;
     border-radius: 50%;
 }
 
 .featured-causes .causes-details .p-title {
-    color: #a1cf68;
+    color: $primary;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -833,7 +833,7 @@
     display: inline-block;
     width: 30px;
     height: 30px;
-    color: #a1cf68;
+    color: $primary;
     border: 1px solid #CACFD3;
     line-height: 30px;
     text-align: center;
@@ -844,13 +844,13 @@
 }
 
 .featured-causes .social li a:hover {
-    background: #a1cf68;
-    border-color: #a1cf68;
+    background: $primary;
+    border-color: $primary;
     color: #fff;
 }
 
 .featured-causes .progress-item .progress-bar {
-    background-color: #a1cf68;
+    background-color: $primary;
     border-radius: 8px 0 0 8px;
     font-size: 12px;
     height: 15px;
@@ -867,7 +867,7 @@
 }
 
 .featured-causes .progress-item .progress-bar .value-holder {
-    background-color: #a1cf68;
+    background-color: $primary;
     color: #333;
     font-size: 10px;
     line-height: 8px;
@@ -886,19 +886,19 @@
     min-width: 40px;
     text-align: center;
     display: block;
-    border: 1px solid #a1cf68;
+    border: 1px solid $primary;
 }
 
 .pager-outer .pagination a:hover,
 .pager-outer .pagination .active a {
-    background: #a1cf68;
+    background: $primary;
     color: #ffffff;
 }
 
 /* 35 .promote-project */
 
 .promote-project h2 {
-    color: #a1cf68;
+    color: $primary;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
@@ -907,13 +907,13 @@
 }
 
 .donation-form-outer .radio-select input[type="radio"]:checked+label {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .testimonials .slide-item:hover .curve:before,
 .testimonials .slide-item:hover .avatar,
 .testimonials .slide-item:hover .quote-text {
-    border-color: #a1cf68;
+    border-color: $primary;
 }
 
 .testimonials .owl-dots .owl-dot {
@@ -922,7 +922,7 @@
     height: 12px;
     margin: 0px 5px;
     padding: 0px;
-    border: 2px solid #a1cf68;
+    border: 2px solid $primary;
     background: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -932,8 +932,8 @@
 }
 
 .testimonials .owl-dots .owl-dot.active {
-    background-color: #a1cf68;
-    background: #a1cf68;
+    background-color: $primary;
+    background: $primary;
 }
 
 .featured-blog-post .post-header .date {
@@ -944,7 +944,7 @@
     width: 80px;
     height: 80px;
     color: #ffffff;
-    background: #a1cf68;
+    background: $primary;
     font-size: 16px;
     line-height: 30px;
     font-weight: 600;
@@ -952,38 +952,38 @@
 }
 
 .featured-blog-post .post-header .title a:hover {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .featured-blog-post .post-header .post-info li a {
-    color: #a1cf68;
+    color: $primary;
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
 }
 
 .share li:hover a {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .social li:hover a {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .sidebar .recent-posts .post a,
 .sidebar .recent-posts .post a:hover {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .sidebar .popular-tags .tags a:hover {
-    background: #a1cf68 none repeat scroll 0 0;
+    background: $primary none repeat scroll 0 0;
     color: #ffffff;
 }
 
 .testimonial-slider .slide-content {
     position: relative;
     padding: 25px 30px;
-    background: #a1cf68;
-    border: 1px solid #a1cf68;
+    background: $primary;
+    border: 1px solid $primary;
     color: #3a4145;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -999,7 +999,7 @@
     left: 19px;
     bottom: -33px;
     border: 18px solid transparent;
-    border-top: 16px solid #a1cf68;
+    border-top: 16px solid $primary;
 }
 
 .testimonial-slider .slide-content:after {
@@ -1008,7 +1008,7 @@
     left: 22px;
     bottom: -28px;
     border: 15px solid transparent;
-    border-top: 15px solid #a1cf68;
+    border-top: 15px solid $primary;
 }
 
 .testimonial-slider .slide-info .author-thumb {
@@ -1017,21 +1017,21 @@
     top: 0px;
     width: 74px;
     height: 74px;
-    border: 2px solid #a1cf68;
+    border: 2px solid $primary;
 }
 
 .testimonial-slider .bx-pager-link:hover,
 .testimonial-slider .bx-pager-link.active {
-    border-color: #a1cf68;
-    background: #a1cf68;
+    border-color: $primary;
+    background: $primary;
 }
 
 .shop-page-content .single-shop-item .meta h4:hover a {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .shop-page-content .single-shop-item a.add-to-cart {
-    background: #a1cf68;
+    background: $primary;
     text-transform: uppercase;
     display: inline-block;
     line-height: 30px;
@@ -1045,7 +1045,7 @@
 }
 
 .product-details-box a.add-to-cart {
-    background: #a1cf68;
+    background: $primary;
     text-transform: uppercase;
     display: inline-block;
     line-height: 45px;
@@ -1061,7 +1061,7 @@
 .product-details-tab-title ul li.active span {
     background: #fff;
     border: 1px solid #E6E6E6;
-    border-top: 2px solid #a1cf68;
+    border-top: 2px solid $primary;
     border-bottom: 0;
     position: relative;
     top: 1px;
@@ -1069,13 +1069,13 @@
 }
 
 .cart-page .table>tbody>tr>td.del-item {
-    color: #a1cf68;
+    color: $primary;
     font-size: 18px;
     font-weight: normal;
 }
 
 .cart-page .add-to-cart-wrap a {
-    background: #a1cf68;
+    background: $primary;
     text-transform: uppercase;
     display: inline-block;
     line-height: 36px;
@@ -1087,7 +1087,7 @@
 }
 
 .cart-page .cart-total-box .proceed-to-checkout a {
-    background: #a1cf68;
+    background: $primary;
     text-transform: uppercase;
     display: inline-block;
     line-height: 36px;
@@ -1099,15 +1099,15 @@
 }
 
 #checkout-content .return-customer a {
-    color: #a1cf68;
+    color: $primary;
 }
 
 #checkout-content .order-box ul li a span {
-    color: #a1cf68;
+    color: $primary;
 }
 
 #checkout-content .order-box ul li a.place-order {
-    background: #a1cf68;
+    background: $primary;
     text-transform: uppercase;
     display: inline-block;
     line-height: 36px;
@@ -1118,13 +1118,13 @@
 }
 
 .pricing-style2 .pricing-table .pricing-title {
-    background-color: #a1cf68;
+    background-color: $primary;
 }
 
 .btn-theme-light:hover {
-    background: #a1cf68;
+    background: $primary;
     color: #ffffff;
-    border-color: #a1cf68;
+    border-color: $primary;
 }
 
 .btn-theme-one {
@@ -1132,10 +1132,10 @@
     padding: 12px 25px;
     line-height: 24px;
     text-transform: uppercase;
-    background: #a1cf68;
+    background: $primary;
     color: #ffffff;
     font-size: 14px;
-    border: 1px solid #a1cf68;
+    border: 1px solid $primary;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -1145,8 +1145,8 @@
 
 .btn-theme-one:hover {
     background: #ffffff;
-    color: #a1cf68;
-    border-color: #a1cf68;
+    color: $primary;
+    border-color: $primary;
 }
 
 .btn-theme-two {
@@ -1155,9 +1155,9 @@
     line-height: 24px;
     text-transform: uppercase;
     background: #ffffff;
-    color: #a1cf68;
+    color: $primary;
     font-size: 14px;
-    border: 1px solid #a1cf68;
+    border: 1px solid $primary;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -1166,19 +1166,19 @@
 }
 
 .btn-theme-two:hover {
-    background: #a1cf68;
+    background: $primary;
     color: #ffffff;
-    border-color: #a1cf68;
+    border-color: $primary;
 }
 
 .btn-theme-seven:hover {
-    background: #a1cf68;
+    background: $primary;
     color: #ffffff;
     border-color: #ffffff;
 }
 
 .progress-column.clr-blue .inner-box {
-    border-top-color: #a1cf68;
+    border-top-color: $primary;
 }
 
 .progress-column .inner-box .top-icon {
@@ -1192,13 +1192,13 @@
     text-align: center;
     line-height: 19px;
     border-radius: 50%;
-    border: 3px solid #a1cf68;
+    border: 3px solid $primary;
     z-index: 1;
 }
 
 .progress-column.clr-blue .inner-box .top-icon {
-    border-color: #a1cf68;
-    background: #a1cf68;
+    border-color: $primary;
+    background: $primary;
     transform: scale(1.2, 1.2);
     -webkit-transform: scale(1.2, 1.2);
     -ms-transform: scale(1.2, 1.2);
@@ -1207,14 +1207,14 @@
 }
 
 .progress-column.clr-blue h3 {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .progress-levels .progress-box .bar .bar-fill {
     position: relative;
     width: 0px;
     height: 7px;
-    background: #a1cf68;
+    background: $primary;
     border-radius: 3px;
 }
 
@@ -1225,25 +1225,25 @@
     top: -10px;
     letter-spacing: 1px;
     font-size: 14px;
-    color: #a1cf68;
+    color: $primary;
 }
 
 .default-line-left {
     width: 80px;
     height: 3px;
     margin: 10px 0px 20px;
-    background: #a1cf68;
+    background: $primary;
 }
 
 .default-line-centered {
     width: 80px;
     height: 3px;
     margin: 10px auto 10px;
-    background: #a1cf68;
+    background: $primary;
 }
 
 .tabs-box .tab-buttons .tab-btn.active {
-    background: #a1cf68;
+    background: $primary;
     color: #ffffff;
 }
 
@@ -1256,8 +1256,8 @@
     height: 30px;
     line-height: 26px;
     text-align: center;
-    border: 2px solid #a1cf68;
-    color: #a1cf68;
+    border: 2px solid $primary;
+    color: $primary;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1266,7 +1266,7 @@
 }
 
 .accordion-box .accordion .acc-btn.active {
-    color: #a1cf68;
+    color: $primary;
 }
 
 .process-column .icon-outer {
@@ -1274,7 +1274,7 @@
     max-width: 140px;
     max-height: 140px;
     margin: 0 auto;
-    border: 3px solid #a1cf68;
+    border: 3px solid $primary;
     color: #d0d0d0;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1284,9 +1284,9 @@
 }
 
 .process-column:hover .icon-outer {
-    background: #a1cf68;
+    background: $primary;
     color: #ffffff;
-    border-color: #a1cf68;
+    border-color: $primary;
 }
 
 .process-column .icon-outer .step-count {
@@ -1299,7 +1299,7 @@
     line-height: 40px;
     color: #ffffff;
     font-size: 16px;
-    background: #a1cf68;
+    background: $primary;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -1309,11 +1309,11 @@
 
 .process-column:hover .icon-outer .step-count {
     background: #ffffff;
-    color: #a1cf68;
+    color: $primary;
 }
 
 .accordion-box .block .acc-btn {
-    border: 1px solid #a1cf68;
+    border: 1px solid $primary;
     color: #1c1c1c;
     cursor: pointer;
     font-size: 16px;
@@ -1333,7 +1333,7 @@
 }
 
 .tparrows:hover {
-    background: #a1cf68;
+    background: $primary;
 }
 
 .tparrows:before {
@@ -1346,12 +1346,12 @@
 }
 
 .pricingTable {
-    background: #a1cf68;
+    background: $primary;
 }
 
 .pricingTable>.pricingTable-header:after {
     content: "";
-    border-bottom: 40px solid #a1cf68;
+    border-bottom: 40px solid $primary;
 }
 
 @media (max-width: 1199px) {
@@ -1360,7 +1360,7 @@
     }
 
     .event .event-content .date {
-        background: #a1cf68 none repeat scroll 0 0;
+        background: $primary none repeat scroll 0 0;
         font-size: 12px;
         font-weight: 700;
         list-style: outside none none;
@@ -1401,7 +1401,7 @@
     .nav-footer button {
         width: 40px;
         height: 40px;
-        background: #a1cf68;
+        background: $primary;
         color: #fff;
         border: none;
         outline: none;
@@ -1418,7 +1418,7 @@
     .navigation .nav-header>ul>li>a,
     .navigation .nav-header>ul>li:first-child>a {
         padding: 14px 19px;
-        background: #a1cf68;
+        background: $primary;
         border-bottom: 1px solid #fff;
     }
 
@@ -14676,4 +14676,41 @@ table tr td {
 
 .causes-details .thm-btn {
     margin-bottom: 8px
+}
+
+@media(min-width: 767px){
+    .slant{
+        background: #fff;
+        z-index: 1;
+        position: relative;
+    }
+    .slant::before {
+        content: '';
+        display: block;
+        background: inherit;
+        position: absolute;
+        top: -6px;
+        height: 500px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        -webkit-transform: skewY(10.5deg);
+        -moz-transform: skewY(10.5deg);
+        -ms-transform: skewY(10.5deg);
+        -o-transform: skewY(10.5deg);
+        transform: skewY(10.5deg);
+        -webkit-transform-origin: 100%;
+        -moz-transform-origin: 100%;
+        -ms-transform-origin: 100%;
+        -o-transform-origin: 100%;
+        transform-origin: 100%;
+        -webkit-box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.05), 0 -12px 28px 0 rgba(0, 0, 0, 0.05);
+    }
+    .slant .container{
+        padding-top: 1.5%;
+        padding-bottom: 10%;
+    }
 }
