@@ -22,3 +22,10 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::any('{page?}', IndexController::class)->name('page');
+
+Route::domain('{account}.novamonline.com')->group(function () {
+    Route::any('{page?}/{id?}', function ($account, $id) {
+    //
+    dump($account, $id);
+    });
+});

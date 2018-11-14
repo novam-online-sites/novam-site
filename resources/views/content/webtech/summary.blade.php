@@ -7,11 +7,11 @@
 <div class="sec-content">
     <!-- Row -->
     <div class="row">
-        @empty($odd)
+        @if(isset($odd) && $odd)
             <div class="col-md-6 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <img alt="Case" class="img-Yoga" src="{{ asset('images/web-app-tech.png') }}">
             </div>
-        @endempty
+        @endif
         <!-- Column -->
         <div class="col-md-6 wow zoomIn" data-wow-delay="200ms" data-wow-duration="1500ms">
             <!-- Title -->
@@ -33,11 +33,11 @@
             <p><a class="mt-20 btn thm-btn inverse" href="about.html">Read More</a></p>
         </div>
         <!-- Column -->
-        @isset($odd)
+        @if(!isset($odd) || !$odd)
          <div class="col-md-6 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
             <img alt="Case" class="img-Yoga" src="{{ asset('images/web-app-tech.png') }}">
         </div>
-        @endisset
+        @endif
     </div>
     <!-- Row -->
 </div>
