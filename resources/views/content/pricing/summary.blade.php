@@ -72,8 +72,8 @@
                                 <li>SEO Marketing <i class="fa fa-check"></i></li>
                                 <li>Maintenance <i class="fa fa-check"></i> </li>
                                 <li>Web Hosting <i class="fa fa-check"></i></li>
-                                <li>UI/UX Design <i class="fa fa-check"></i></li>
-                                <li>Development <i class="fa fa-check"></i></li>
+                                <li>UI/UX Design <i class="fa fa-times"></i></li>
+                                <li>Development <i class="fa fa-times"></i></li>
                             </ul>
                         </div><!-- /  CONTENT BOX-->
 

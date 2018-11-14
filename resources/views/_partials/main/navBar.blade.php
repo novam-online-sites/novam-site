@@ -1,4 +1,41 @@
-
+{{--  <nav class="mainmenu-area stricky">
+    <div class="container">
+        <div class="navigation">
+            <div class="nav-header d-flex">
+                <ul class="d-block d-md-none mr-auto">
+                    <li class="donate-btn">
+                        <a class="thm-btn m-1 p-1" href="/test">
+                            <img style="max-height:2.5rem;" src="{{ asset('images/logo.png') }}" />
+                        </a>
+                    </li>
+                </ul>
+                <ul class="mr-auto">
+                    <li class="d-block d-md-none mr-auto"></li>
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="/services">Our Services</a></li>
+                    <li><a href="/technologies">Technologies</a></li>
+                    <li class="dropdown">
+                        <a href="#">Porftolio</a>
+                        <ul class="submenu">
+                            <li><a href="gallery-style-one.html">Gallery Style One</a></li>
+                            <li><a href="gallery-style-two.html">Gallery Style Two</a></li>
+                            <li><a href="gallery-style-three.html">Gallery Style three</a></li>
+                        </ul>
+                    </li>
+                    <li class="d-block d-md-none mr-auto"></li>
+                </ul>
+                <ul class="ml-auto">
+                    <li class="donate-btn">
+                        <a class="thm-btn m-1 p-1" href="/login">Clients</a>
+                        <div class="nav-footer float-left">
+                            <button><i class="fa fa-bars"></i></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>  --}}
 <nav class="mainmenu-area stricky">
     <div class="container">
         <div class="row">
@@ -6,25 +43,25 @@
                 <div class="navigation">
                     <div class="nav-header pull-left">
                         <ul>
-                            <li><a href="/">About Us</a></li>
-                            <li><a href="/services">Our Services</a></li>
-                            <li><a href="/technologies">Technologies</a></li>
-                            {{--  <li class="dropdown">
-                                <a href="#">Porftolio</a>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/offering">Web Tools</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li class="dropdown">
+                                <a href="#">Our Blog</a>
                                 <ul class="submenu">
                                     <li><a href="gallery-style-one.html">Gallery Style One</a></li>
                                     <li><a href="gallery-style-two.html">Gallery Style Two</a></li>
                                     <li><a href="gallery-style-three.html">Gallery Style three</a></li>
                                 </ul>
-                            </li>  --}}
-                            <li><a href="/portfolio">Portfolio</a></li>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="donate-col col-xs-12 col-sm-12 col-lg-3 col-md-3">
                 <div class="donate-btn clearfix">
-                    <a class="thm-btn pull-right" href="/login">Enter</a>
+                    <a class="thm-btn pull-right" href="#">Clients</a>
                     <div class="nav-footer pull-left">
                         <button><i class="fa fa-bars"></i></button>
                     </div>

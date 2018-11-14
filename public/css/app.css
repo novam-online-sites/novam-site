@@ -20937,7 +20937,8 @@ a.text-dark:focus {
 }
 
 .logo-img {
-  max-height: 3rem;
+  max-height: 2.25rem;
+  margin-top: -5px;
 }
 
 .logo h1 {

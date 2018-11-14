@@ -9,28 +9,32 @@ class IndexController extends Controller
     //
     public function __invoke(Request $request, $page = '')
     {
-
       switch ($page) {
           case 'about':
               $view = "content.about.index";
               break;
-          case 'more':
+          case 'services':
               $view = "content.services.index";
               break;
-          case 'work':
+          case 'portfolio':
               $view = "content.portfolio.index";
               break;
-          case 'client':
-              $view = "content.clients.index";
+          case 'offering':
+              $view = "content.offering.index";
               break;
           case 'contact':
               $view = "content.contact.index";
               break;
           default:
-              $view = 'index';
+              $view = 'content.index';
               break;
       }
-      if($request->ajax() || $request->wantsJson()) return view($view);
+      if($request->ajax() || $request->wantsJson()){
+          return view($view);
+      }
+      elseif(view()->exists($view)) {
+          return view($view);
+      }
       return view('index')->withError($page.' is Not allowed here!');
     }
 }

@@ -37,17 +37,6 @@
     @include('_partials.main.navBar')
     <!-- /.mainmenu-area -->
 
-    <!--Rev Slider Wrapper Column-->
-    <div class="rev_slider_wrapper bannercontainer" id="app">
-        <div id="slider1" class="rev_slider" data-version="5.0">
-            @include('_partials.main.slider')
-        </div>
-    </div>
-
-    <div class="search">
-        @include('_partials.main.search')
-    </div>
-
     @yield('content')
 
     <!--Footer div-->

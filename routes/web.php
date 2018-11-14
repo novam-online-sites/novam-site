@@ -11,13 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+
+
 Route::get('/test', function () {
-return view('welcome');
+        return view('welcome');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::any('{page?}', IndexController::class)->name('page');

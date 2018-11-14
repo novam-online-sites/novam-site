@@ -19,4 +19,6 @@ mix
     .js('resources/js/scripts.js', 'public/js')
     .sass('resources/sass/styles.scss', 'public/css')
     .js('resources/js/vendor.js', 'public/js')
-    .sass('resources/sass/vendor.scss', 'public/css');
+    .sass('resources/sass/vendor.scss', 'public/css')
+    .js('resources/js/page.js', 'public/js')
+    .sass('resources/sass/page.scss', 'public/css');

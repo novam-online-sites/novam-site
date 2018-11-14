@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'logo' => env('APP_LOGO', 'Laravel'),
     'domain' => env('APP_DOMAIN', 'novamonline.com'),
 
     /*

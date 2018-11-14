@@ -1,9 +1,18 @@
 @extends('layouts.main')
 @section('content')
 
+<!--Rev Slider Wrapper Column-->
+<div class="rev_slider_wrapper bannercontainer" id="app">
+    <div id="slider1" class="rev_slider" data-version="5.0">
+        @include('_partials.main.slider')
+    </div>
+</div>
 
+<div class="search">
+    @include('_partials.main.search')
+</div>
 
-<div class="featured-three-column mt-sm-70 mt-40 pb-70">
+{{--  <div class="featured-three-column mt-sm-70 mt-40 pb-70">
     @include('content.process.summary')
 </div>
 
@@ -14,27 +23,13 @@
 
 <section style="background: #f1f1f1" class="pricingTable-1 pt-50 pb-70">
     @include('content.services.summary')
-</section>
+</section>  --}}
 
-<section style="background-url: url(//placehold.it/200X300/000000)" class="footer-call-to-action bg-image">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 pt-30 pb-10 text-center wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="images/hosting/5.png" alt="">
-            </div>
-            <div class="col-md-7 pt-50 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <p><i>hosting this summer</i></p>
-                <h2 class="mt-10 mb-10 text-white" style="text-transform: uppercase;font-weight: bold; font-size: 56px;line-height:56px">25%
-                    Off</h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have lorem</p>
-                <a href="#" class="thm-btn inverse mt-15 mr-15">Register Now</a>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="about sec-padding">
-    @include('content.webtech.summary')
+    @include('content.webtech.summary', [
+        'odd' => true, 'heading' => 'Web analysis and marketing'
+        ])
     <!-- Container -->
 </section>
 
@@ -42,7 +37,7 @@
     data-wow-delay="200ms" data-wow-duration="1500ms">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center pt-70 pb-40">
+            <div class="col-md-12 text-center">
                 <h3>Here will be any kind lorem ipsum heading</h3>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have lorem</p>
                 <a href="#" class="thm-btn inverse mt-15 mr-15">Join Now</a> &nbsp;
@@ -50,6 +45,44 @@
             </div>
         </div>
     </div>
+</section>
+
+<section class="about sec-padding">
+    @include('content.webtech.summary', [
+        'odd' => false, 'heading' => 'Web Design (UI/UX) & Development'
+    ])
+    <!-- Container -->
+</section>
+
+<section style="background-url: url(//placehold.it/200X300/000000)" class="footer-call-to-action bg-image">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 sm-text-center">
+                <h3>Sign up for Updates </h3>
+                <p>By subscribing to our mailing list you will always be updated. </p>
+            </div>
+            <div class="col-md-8 text-right sm-text-center">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="text" name="email" placeholder="Email Address">
+                <a href="#" class="thm-btn inverse mt-sm-15">Subscribe Now</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="about sec-padding">
+    @include('content.webtech.summary', [
+        'odd' => true, 'heading' => 'Site Hosting & Maintanance'
+    ])
+    <!-- Container -->
+</section>
+
+<section style="background-url: url(//placehold.it/200X300/000000)" class="footer-call-to-action bg-image">
+
+@include('content.promos.summary')
 </section>
 
 
@@ -66,7 +99,7 @@
     @include('content.blog.summary')
 </section>
 
-<!--Start Our Gallery Areas-->
+{{--  <!--Start Our Gallery Areas-->
 <div style="background: #f1f1f1" class="gallery-section full-width pt-70 pb-0 wow fadeIn" data-wow-delay="250ms"
     data-wow-duration="1500ms">
     <div class="container">
@@ -171,10 +204,10 @@
             </div>
         </div>
     </div>
-</div>
+</div>  --}}
 
 <!--Client logo div-->
-<div class="p-40">
+{{--  <div class="p-40">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -196,7 +229,7 @@
                     </div>
                     <div class="item">
                         <div class="img-box">
-                            <img src="//placehold.it/32X32" alt="">
+                            <img style="margin:0 2rem" src="//placehold.it/32X32" alt="">
                         </div>
                     </div>
                     <div class="item">
@@ -223,25 +256,11 @@
             </div>
         </div>
     </div>
-</div>
+</div>  --}}
 
 
 <!--Start call to action Area-->
 <div class="footer-call-to-action">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-4 sm-text-center">
-                <h3>Sign up for Updates </h3>
-                <p>By subscribing to our mailing list you will always be updated. </p>
-            </div>
-            <div class="col-md-8 text-right sm-text-center">
-                <input type="text" name="name" placeholder="Full Name">
-                <input type="text" name="email" placeholder="Email Address">
-                <a href="#" class="thm-btn inverse mt-sm-15">Subscribe Now</a>
-            </div>
-
-        </div>
-    </div>
+    @include('content.promos.summary')
 </div>
 @endsection

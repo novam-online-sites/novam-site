@@ -1,11 +1,11 @@
 <div class="container">
             <div class="row justify-content-center">
-                <div style="z-index:9; margin-top: -85px;" class="shadow col-md-8 pb-20 pt-50 pr-50 pl-50  bg-white text-center wow fadeInUp"
+                <div style="z-index:9; margin-top: -85px;" class="shadow col-md-8 pb-20 pt-50 pr-50 pl-50  bg-white text-center wow zoomInDown"
                     data-wow-delay="700ms" data-wow-duration="1500ms">
                     <div class="search-form ">
                         <div class="input-group">
                             <input id="domain-search" placeholder="Type to search..." type="text" class="form-control">
-                            <div class="input-group-btn search-panel">
+                            {{--  <div class="input-group-btn search-panel">
                                 <select class="form-control">
                                     <option value="" selected="selected">(select)</option>
                                     <option value=".org">.org</option>
@@ -17,7 +17,7 @@
                                     <option value=".xxx">.xxx</option>
                                 </select>
                             </div>
-                            <input type="hidden" name="search_param" value="all" id="search_param">
+                            <input type="hidden" name="search_param" value="all" id="search_param">  --}}
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button" id="searchBtn"><span class="glyphicon glyphicon-search">&nbsp;</span>
                                 </button>
