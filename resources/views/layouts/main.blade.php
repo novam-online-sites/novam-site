@@ -37,7 +37,9 @@
     @include('_partials.main.navBar')
     <!-- /.mainmenu-area -->
 
-    @yield('content')
+    <div id="app">
+        @yield('content')
+    </div>
 
     <!--Footer div-->
     @include('_partials.main.footer')
