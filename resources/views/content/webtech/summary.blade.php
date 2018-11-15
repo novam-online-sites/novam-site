@@ -9,7 +9,7 @@
     <div class="row">
         @if(isset($odd) && $odd)
             <div class="col-md-6 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img alt="Case" class="img-Yoga" src="{{ asset('images/web-app-tech.png') }}">
+                <img alt="Case" class="img-Yoga" src="{{ $image ?? asset('images/web-app-tech.png') }}">
             </div>
         @endif
         <!-- Column -->

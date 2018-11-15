@@ -16,6 +16,7 @@
 <section class="about sec-padding">
     @include('content.webtech.summary', [
     'odd' => true, 'heading' => 'Web analysis & SEO marketing',
+    'image' => asset('images/pages/webanalytics.png'),
     'content' => '
     <p>
         We diagnose existing websites for security vulnerabilities, bugs, perfomance issues and possible enhancements.
@@ -48,6 +49,7 @@
 <section class="about sec-padding">
     @include('content.webtech.summary', [
     'odd' => false, 'heading' => 'Web Design (UI/UX) & Development',
+    'image' => asset('images/pages/responsiveui.jpg'),
     'content' => '
         <p>
             We take your ideas and visions and explore all technologies to design a rich user experience (UX) blueprint - wireframes, mockups, templates.
