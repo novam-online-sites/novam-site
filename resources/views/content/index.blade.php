@@ -48,8 +48,7 @@
 
 <section class="about sec-padding">
     @include('content.webtech.summary', [
-    'odd' => false, 'heading' => 'Web Design (UI/UX) & Development',
-    'image' => asset('images/pages/responsiveui.jpg'),
+    'odd' => false, 'heading' => 'Web Design (UI/UX) & Development', 'image' => asset('images/pages/responsiveui.jpg'),
     'content' => '
         <p>
             We take your ideas and visions and explore all technologies to design a rich user experience (UX) blueprint - wireframes, mockups, templates.
@@ -80,7 +79,7 @@
 
 <section class="about sec-padding">
     @include('content.webtech.summary', [
-    'odd' => true, 'heading' => 'Site Hosting & Maintanance',
+    'odd' => true, 'heading' => 'Site Hosting & Maintanance', 'image' => asset('images/pages/webdevelop.png'),
     'content' => '
         <p>
             We provide cloud-based hosting and ongoing support and maintenance 24/7/365 and guarantee 100% uptime!
