@@ -35,7 +35,7 @@
         <!-- Column -->
         @if(!isset($odd) || !$odd)
          <div class="col-md-6 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <img alt="Case" class="img-Yoga" src="{{ asset('images/web-app-tech.png') }}">
+            <img alt="Case" class="img-Yoga" src="{{ $image ?? asset('images/web-app-tech.png') }}">
         </div>
         @endif
     </div>
