@@ -19,4 +19,8 @@
 <div class="featured-three-column mt-sm-70 mt-40 pb-70">
     @include('content.services.summary')
 </div>
+
+<section class="testimonials wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+    @include('content.clients.reviews')
+</section>
 @endsection

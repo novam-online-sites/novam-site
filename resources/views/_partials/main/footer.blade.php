@@ -23,15 +23,7 @@
                 <div class="col-sm-6  col-md-2">
                     <div class="footer-widget quick-links">
                         <h3 class="title">Navigation</h3>
-                        <ul>
-                            <li><a href="index.html">Home Page</a></li>
-                            <li><a href="domain.html">Domain</a></li>
-                            <li><a href="hosting.html">Hosting</a></li>
-                            <li><a href="gallery-style-two.html">Gallery</a></li>
-                            <li><a href="Services">Services</a></li>
-                            <li><a href="contact1.html">Contact Us</a></li>
-
-                        </ul>
+                        @include('_partials.main.siteNav', ['home' => true])
                     </div>
                 </div>
                 <div class="col-sm-6 latest-post col-md-3">

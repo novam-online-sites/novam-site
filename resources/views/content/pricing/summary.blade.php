@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 wow zoomInRight" data-wow-delay="200ms" data-wow-duration="2500ms">
+                <div class="col-md-3 col-sm-6 wow zoomIn" data-wow-delay="200ms" data-wow-duration="2500ms">
                     <div class="pricingTable">
                         <div class="pricingTable-header">
                             <div class="heading">
@@ -57,7 +57,7 @@
                         </div><!-- BUTTON BOX-->
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 wow zoomInLeft" data-wow-delay="200ms" data-wow-duration="2500ms">
+                <div class="col-md-3 col-sm-6 wow zoomIn" data-wow-delay="200ms" data-wow-duration="2500ms">
                     <div class="pricingTable">
                         <div class="pricingTable-header">
                             <div class="heading">

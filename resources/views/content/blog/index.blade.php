@@ -23,13 +23,13 @@
                     <div class="col-sm-6">
                         <article class="inner-box  pb-30">
                             <figure class="image">
-                                <a href="blog-details.html"><img src="images/blog-page/1.jpg" alt=""></a>
+                                <a href="/blog/1"><img src="images/blog-page/1.jpg" alt=""></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
                                     <div class="date"><span class="day">18</span>
                                         <br>APR</div>
-                                    <h3 class="title"><a href="blog-details.html">Digital Photography</a></h3>
+                                    <h3 class="title"><a href="/blog/1">Digital Photography</a></h3>
                                     <ul class="post-info fs-13 pl-0">
                                         <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
                                         <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
@@ -39,7 +39,7 @@
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore magna aliquyam era...</p>
                                     <div class="text-right">
-                                        <a href="blog-details.html" class="text-thm fs-14">Read more <i class="fa fa-caret-right"></i></a>
+                                        <a href="/blog/1" class="text-thm fs-14">Read more <i class="fa fa-caret-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -48,13 +48,13 @@
                     <div class="col-sm-6">
                         <article class="inner-box pb-30">
                             <figure class="image">
-                                <a href="blog-details.html"><img src="images/blog-page/2.jpg" alt=""></a>
+                                <a href="/blog/1"><img src="images/blog-page/2.jpg" alt=""></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
                                     <div class="date"><span class="day">15</span>
                                         <br>APR</div>
-                                    <h3 class="title"><a href="blog-details.html">Outsourcing Tips</a></h3>
+                                    <h3 class="title"><a href="/blog/1">Outsourcing Tips</a></h3>
                                     <ul class="post-info fs-13 pl-0">
                                         <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
                                         <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
@@ -64,7 +64,7 @@
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore magna aliquyam era...</p>
                                     <div class="text-right">
-                                        <a href="blog-details.html" class="text-thm fs-14">Read more <i class="fa fa-caret-right"></i></a>
+                                        <a href="/blog/1" class="text-thm fs-14">Read more <i class="fa fa-caret-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -73,13 +73,13 @@
                     <div class="col-sm-6">
                         <article class="inner-box pb-30">
                             <figure class="image">
-                                <a href="blog-details.html"><img src="images/blog-page/3.jpg" alt=""></a>
+                                <a href="/blog/1"><img src="images/blog-page/3.jpg" alt=""></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
                                     <div class="date"><span class="day">09</span>
                                         <br>APR</div>
-                                    <h3 class="title"><a href="blog-details.html">Digital Marketing</a></h3>
+                                    <h3 class="title"><a href="/blog/1">Digital Marketing</a></h3>
                                     <ul class="post-info fs-13 pl-0">
                                         <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
                                         <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
@@ -89,7 +89,7 @@
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore magna aliquyam era...</p>
                                     <div class="text-right">
-                                        <a href="blog-details.html" class="text-thm fs-14">Read more <i class="fa fa-caret-right"></i></a>
+                                        <a href="/blog/1" class="text-thm fs-14">Read more <i class="fa fa-caret-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -98,13 +98,13 @@
                     <div class="col-sm-6">
                         <article class="inner-box pb-30">
                             <figure class="image">
-                                <a href="blog-details.html"><img src="images/blog-page/4.jpg" alt=""></a>
+                                <a href="/blog/1"><img src="images/blog-page/4.jpg" alt=""></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
                                     <div class="date"><span class="day">09</span>
                                         <br>APR</div>
-                                    <h3 class="title"><a href="blog-details.html">Blog post with image</a></h3>
+                                    <h3 class="title"><a href="/blog/1">Blog post with image</a></h3>
                                     <ul class="post-info fs-13 pl-0">
                                         <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
                                         <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
@@ -114,7 +114,7 @@
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore magna aliquyam era...</p>
                                     <div class="text-right">
-                                        <a href="blog-details.html" class="text-thm fs-14">Read more <i class="fa fa-caret-right"></i></a>
+                                        <a href="/blog/1" class="text-thm fs-14">Read more <i class="fa fa-caret-right"></i></a>
                                     </div>
                                 </div>
                             </div>

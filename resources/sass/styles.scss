@@ -13682,10 +13682,10 @@ img:after {
 
 .search select.form-control,
 .search #searchBtn,
-.search #domain-search {
+.search #site-search {
     height: 53px !important;
     border-radius: 58px;
-    border: 1px solid whitesmoke;
+    border: 1px solid $light;
     padding: 5px 30px;
     font-size: 14px;
     background: #fff;
@@ -13703,7 +13703,7 @@ img:after {
     min-width: 78px;
 }
 
-.search #domain-search {
+.search #site-search {
     border-top-right-radius: 0px;
     border-right: 0px;
     border-bottom-right-radius: 0px;
@@ -14713,4 +14713,8 @@ table tr td {
         padding-top: 1.5%;
         padding-bottom: 10%;
     }
+}
+
+.owl-dots{
+    text-align: center;
 }

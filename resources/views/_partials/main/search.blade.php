@@ -4,7 +4,7 @@
                     data-wow-delay="700ms" data-wow-duration="1500ms">
                     <div class="search-form ">
                         <div class="input-group">
-                            <input id="domain-search" placeholder="Type to search..." type="text" class="form-control">
+                            <input id="site-search" placeholder="Type to search this site..." type="text" class="form-control">
                             {{--  <div class="input-group-btn search-panel">
                                 <select class="form-control">
                                     <option value="" selected="selected">(select)</option>
@@ -19,7 +19,7 @@
                             </div>
                             <input type="hidden" name="search_param" value="all" id="search_param">  --}}
                             <span class="input-group-btn">
-                                <button class="btn btn-default" type="button" id="searchBtn"><span class="glyphicon glyphicon-search">&nbsp;</span>
+                                <button class="btn btn-default" type="button" id="searchBtn"><span class="fa fa-search">&nbsp;</span>
                                 </button>
                             </span>
                         </div>
