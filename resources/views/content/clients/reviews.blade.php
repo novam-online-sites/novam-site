@@ -12,7 +12,7 @@
             <!--Slide Item-->
             <div class="slide-item anim-5-all">
                 <div class="avatar">
-                    <img src="images/testimonials/1.jpg" alt="" title=""></div>
+                    <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="" title=""></div>
                 <div class="content">
                     <span class="curve"></span>
                     <div class="quote-text">There are many variations of passages of Lorem Ipsum available, but
@@ -23,7 +23,7 @@
             </div>
             <!--Slide Item-->
             <div class="slide-item anim-5-all">
-                <figure class="avatar"><img src="images/testimonials/2.jpg" alt="" title=""></figure>
+                <figure class="avatar"><img src="https://randomuser.me/api/portraits/men/82.jpg" alt="" title=""></figure>
                 <div class="content">
                     <span class="curve"></span>
                     <div class="quote-text">There are many variations of passages of Lorem Ipsum available, but
@@ -34,7 +34,7 @@
             </div>
             <!--Slide Item-->
             <div class="slide-item anim-5-all">
-                <figure class="avatar"><img src="images/testimonials/3.jpg" alt="" title=""></figure>
+                <figure class="avatar"><img src="https://randomuser.me/api/portraits/men/83.jpg" alt="" title=""></figure>
                 <div class="content">
                     <span class="curve"></span>
                     <div class="quote-text">There are many variations of passages of Lorem Ipsum available, but
@@ -45,7 +45,7 @@
             </div>
             <!--Slide Item-->
             <div class="slide-item anim-5-all">
-                <figure class="avatar"><img src="images/testimonials/1.jpg" alt="" title=""></figure>
+                <figure class="avatar"><img src="https://randomuser.me/api/portraits/men/81.jpg" alt="" title=""></figure>
                 <div class="content">
                     <span class="curve"></span>
                     <div class="quote-text">There are many variations of passages of Lorem Ipsum available, but
@@ -56,7 +56,7 @@
             </div>
             <!--Slide Item-->
             <div class="slide-item anim-5-all">
-                <figure class="avatar"><img src="images/testimonials/2.jpg" alt="" title=""></figure>
+                <figure class="avatar"><img src="https://randomuser.me/api/portraits/men/82.jpg" alt="" title=""></figure>
                 <div class="content">
                     <span class="curve"></span>
                     <div class="quote-text">There are many variations of passages of Lorem Ipsum available, but
@@ -67,7 +67,7 @@
             </div>
             <!--Slide Item-->
             <div class="slide-item anim-5-all">
-                <figure class="avatar"><img src="images/testimonials/3.jpg" alt="" title=""></figure>
+                <figure class="avatar"><img src="https://randomuser.me/api/portraits/men/83.jpg" alt="" title=""></figure>
                 <div class="content">
                     <span class="curve"></span>
                     <div class="quote-text">There are many variations of passages of Lorem Ipsum available, but

@@ -16,7 +16,7 @@
                 data-wow-duration="1500ms">
                 <article class="inner-box hvr-float-shadow">
                     <figure class="image">
-                        {{-- <a href="blog-details.html"><img src="images/hosting/blog/1.jpg" alt=""></a> --}}
+                        <a href="blog-details.html"><img src="https://picsum.photos/300/200?image=121" alt=""></a>
                     </figure>
                     <div class="post-lower">
                         <div class="post-header">
@@ -43,8 +43,8 @@
                 data-wow-duration="1500ms">
                 <article class="inner-box hvr-float-shadow">
                     <figure class="image">
-                        {{-- <a href="blog-details.html"><img src="images/hosting/blog/2.jpg" alt="" /></a>
-                        --}}
+                        <a href="blog-details.html"><img src="https://picsum.photos/300/200?image=122" alt="" /></a>
+
                     </figure>
                     <div class="post-lower">
                         <div class="post-header">
@@ -71,7 +71,7 @@
                 data-wow-duration="1500ms">
                 <article class="inner-box hvr-float-shadow">
                     <figure class="image">
-                        {{-- <a href="blog-details.html"><img src="images/hosting/blog/3.jpg" alt=""></a> --}}
+                        <a href="blog-details.html"><img src="https://picsum.photos/300/200?image=123" alt=""></a>
                     </figure>
                     <div class="post-lower">
                         <div class="post-header">

@@ -48,7 +48,7 @@
             </div>
             <div class="donate-col col-xs-12 col-sm-12 col-lg-3 col-md-3">
                 <div class="donate-btn clearfix">
-                    <a class="thm-btn pull-right" href="#">Clients</a>
+                    <a class="thm-btn pull-right" href="/home">Clients</a>
                     <div class="nav-footer pull-left">
                         <button><i class="fa fa-bars"></i></button>
                     </div>

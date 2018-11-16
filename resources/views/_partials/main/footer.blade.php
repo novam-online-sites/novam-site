@@ -7,7 +7,10 @@
                             <h1 class="text-inverse" style=" color:#eee; font-weight: bold;"><span class="text-thm">Novam </span>Online</h1>
                         </a>
                         <ul class="contact">
-                            <li><i class="fa fa-map-marker"></i> <span>00 Monroe Ave, Roseland, NJ, 07068 </span></li>
+                            <li><i class="fa fa-map-marker"></i> <span>
+                                P O Box 5555 <br/> St George,  UT 84790
+                            </span>
+                        </li>
                             <li><i class="fa fa-phone"></i> <span>(973) 226-6181</span></li>
                             <li><i class="fa fa-phone"></i> <span>(973) 226-6181</span></li>
                             <li><i class="fa fa-envelope-o"></i> <span>info@example.com</span></li>

@@ -23,7 +23,7 @@
                     <div class="col-sm-6">
                         <article class="inner-box  pb-30">
                             <figure class="image">
-                                <a href="/blog/1"><img src="images/blog-page/1.jpg" alt=""></a>
+                                <a href="/blog/1"><img src="https://picsum.photos/300/200?image=1" alt=""></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
@@ -48,7 +48,7 @@
                     <div class="col-sm-6">
                         <article class="inner-box pb-30">
                             <figure class="image">
-                                <a href="/blog/1"><img src="images/blog-page/2.jpg" alt=""></a>
+                                <a href="/blog/1"><img src="https://picsum.photos/300/200?image=2" alt=""></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
@@ -73,7 +73,7 @@
                     <div class="col-sm-6">
                         <article class="inner-box pb-30">
                             <figure class="image">
-                                <a href="/blog/1"><img src="images/blog-page/3.jpg" alt=""></a>
+                                <a href="/blog/1"><img src="https://picsum.photos/300/200?image=3" alt=""></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
@@ -98,7 +98,7 @@
                     <div class="col-sm-6">
                         <article class="inner-box pb-30">
                             <figure class="image">
-                                <a href="/blog/1"><img src="images/blog-page/4.jpg" alt=""></a>
+                                <a href="/blog/1"><img src="https://picsum.photos/300/200?image=4" alt=""></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">

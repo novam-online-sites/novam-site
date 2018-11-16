@@ -1,7 +1,7 @@
 <?php
 
 if(!defined('DS')){
-    define(DS, DIRECTORY_SEPARATOR);
+    define('DS', DIRECTORY_SEPARATOR);
 }
 
 if(!function_exists('AutoLoadFiles')){
