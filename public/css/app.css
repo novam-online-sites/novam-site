@@ -20938,7 +20938,7 @@ a.text-dark:focus {
 }
 
 .bg-imge,
-.shadow {
+.shadow-in {
   -webkit-box-shadow: inset -1px -1px 1rem -1px #222222;
           box-shadow: inset -1px -1px 1rem -1px #222222;
 }
