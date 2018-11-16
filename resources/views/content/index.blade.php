@@ -79,7 +79,7 @@
 
 <section class="about sec-padding">
     @include('content.webtech.summary', [
-    'odd' => true, 'heading' => 'Updates & New Feature Integration', 'image' => asset('images/pages/responsiveui.jpg'),
+    'odd' => true, 'heading' => 'Updates & New Feature Integration', 'image' => asset('images/pages/webaddons.jpg'),
     'content' => '
     <p>
         Perhaps your site or web app is solid but missing some key features, or your design is solid but the backend  needs work.

@@ -10471,6 +10471,10 @@ a.text-dark:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.bg-imge,
+.shadow {
   -webkit-box-shadow: inset -1px -1px 1rem -1px #222222;
           box-shadow: inset -1px -1px 1rem -1px #222222;
 }
@@ -10482,5 +10486,14 @@ a.text-dark:focus {
 .logo h1 {
   line-height: 1;
   margin-top: 1rem;
+}
+
+.slideInRight {
+  position: relative;
+}
+
+.slideInRight::before {
+  content: " ";
+  position: absolute;
 }
 
