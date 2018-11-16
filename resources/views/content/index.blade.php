@@ -79,7 +79,38 @@
 
 <section class="about sec-padding">
     @include('content.webtech.summary', [
-    'odd' => true, 'heading' => 'Site Hosting & Maintanance', 'image' => asset('images/pages/webdevelop.png'),
+    'odd' => true, 'heading' => 'Updates & New Feature Integration', 'image' => asset('images/pages/responsiveui.jpg'),
+    'content' => '
+    <p>
+        Perhaps your site or web app is solid but missing some key features, or your design is solid but the backend  needs work.
+    </p>
+    <p>
+        We add features to existing sites and web application and modify the underlying architecture to utilize the best of the latest technologies.
+    </p>
+    <p>
+        We can incorporate a number of third-party applications with your current web site, using APIs or modules created for all platforms.
+    </p>'
+    ])
+    <!-- Container -->
+</section>
+
+<section style="background-image:url(/images/network-security.jpg)" class="footer-call-to-action wow fadeIn bg-image"
+    data-wow-delay="200ms" data-wow-duration="1500ms">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Here will be any kind lorem ipsum heading</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have lorem</p>
+                <a href="#" class="thm-btn inverse mt-15 mr-15">Join Now</a> &nbsp;
+                <a href="#" class="thm-btn normal-btn mt-15">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about sec-padding">
+    @include('content.webtech.summary', [
+    'odd' => false, 'heading' => 'Web Hosting & Maintanance', 'image' => asset('images/pages/webdevelop.png'),
     'content' => '
         <p>
             We provide cloud-based hosting and ongoing support and maintenance 24/7/365 and guarantee 100% uptime!
@@ -88,7 +119,7 @@
            Our cloud-based option offers your application high availability and speed optimization all across the globe.
         </p>
         <p>
-            We automate error-checking and bug reporting on your site so you don\'t have to worry. We upgrade your application as soon as new technologies are available
+            We convert your current site to an interactive, dynamic web application and take your offline business online.
         </p>'
     ])
     <!-- Container -->
