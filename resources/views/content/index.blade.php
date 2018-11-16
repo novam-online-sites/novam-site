@@ -8,9 +8,7 @@
     </div>
 </div>
 
-<div class="search">
-    @include('_partials.main.search')
-</div>
+
 
 
 <section class="about sec-padding">

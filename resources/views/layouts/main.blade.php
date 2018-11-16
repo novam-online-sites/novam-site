@@ -26,12 +26,7 @@
 </head>
 
 <body>
-    <div class="se-pre-con"></div>
-    <div class="top-bar hidden-xs ">
-        @include('_partials.main.topBar')
-    </div>
-    <!-- /.top-bar -->
-    @include('_partials.main.header')
+    <div class="se-pre-con"></div>    @include('_partials.main.header')
     <!-- /.header -->
 
     @include('_partials.main.navBar')

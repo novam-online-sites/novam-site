@@ -12,8 +12,9 @@
         <div class="col-md-6 social-icons">
             <ul class="float-right">
                 {{--  <li><a href="#"><i class="fa fa-comment"></i> Live Chat</a></li>  --}}
-                <li><a href="#"><i class="fa fa-search"></i> Search</a></li>
-                <li><a href="#"><i class="fa fa-question"></i> Read FAQ</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o"></i> Email</a></li>
+                <li><a href="#"><i class="fa fa-comment-o"></i> Chat</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i> Call</a></li>
             </ul>
         </div>
     </div>

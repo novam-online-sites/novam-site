@@ -13,45 +13,27 @@
     <div class="card-deck">
         <!--Column-->
         <div class="card p-0 col-sm-12 col-md-4 column wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <article class="inner-box dark-overlay bg-img-cover" style="background-image: url(//placehold.it/300X300);">
-                <div class="content">
-                    <h3>Web Analysis </h3>
-                    <div class="text">
-                        <p>We start with your ideas and your current business/site status. Then we figure out what you
-                            need short term and long term</p>
-                    </div>
-                    <div class="link"><a href="global-projects.html" class="thm-btn inverse"><i class="fa fa-caret-right text-text-thmed"></i>
-                            Learn More</a></div>
-                </div>
-            </article>
+            <article-summary odd='true' title='Web Analysis' link='global-projects.html' transition='zoomIn'>
+                <p>
+                    We start with your ideas and your current business/site status. Then we figure out what you
+                    need short term and long term
+                </p>
+            </article-summary>
         </div>
         <!--Column-->
         <div class="card p-0 col-sm-12 col-md-4 column wow fadeIn" data-wow-delay="700ms" data-wow-duration="1500ms">
-            <article class="inner-box bg-img-cover" style="background-image: url(//placehold.it/300X300);">
-                <div class="content">
-                    <h3>SEO Marketing </h3>
-                    <div class="text">
-                        <p>We, then, show you what we currently offer, and help you decide what to suite your needs.
-                            And where your efforts to focus.</p>
-                    </div>
-                    <div class="link"><a href="events.html" class="read-more thm-btn normal-btn"><span class="fa fa-caret-right"></span>
-                            Learn More</a></div>
-                </div>
-            </article>
+            <article-summary odd='false' title='SEO Marketing' link='global-projects.html' transition='zoomIn'>
+                <p>We, then, show you what we currently offer, and help you decide what to suite your needs.
+                    And where your efforts to focus.</p>
+            </article-summary>
         </div>
         <!--Column-->
         <div class="card p-0 col-sm-12 col-md-4 column wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <article class="inner-box dark-overlay bg-img-cover" style="background-image: url(//placehold.it/300X300);">
-                <div class="content">
-                    <h3>UI/UX Design</h3>
-                    <div class="text">
-                        <p>Finally, you decide how you want to invest your time and money and how we can help you
+
+            <article-summary odd='true' title='UI/UX Design' link='global-projects.html' transition='zoomIn'>
+                <p>Finally, you decide how you want to invest your time and money and how we can help you
                             proceed</p>
-                    </div>
-                    <div class="link"><a href="global-projects.html" class="read-more thm-btn inverse"><span class="fa fa-caret-right"></span>Learn
-                            More</a></div>
-                </div>
-            </article>
+            </article-summary>
         </div>
     </div>
     <div class="card-deck">
