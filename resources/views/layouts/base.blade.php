@@ -15,7 +15,7 @@
         @yield('styles')
     </head>
     <body>
-        <main class="container">
+      <main class="container" id="main">
         @yield('content')
       </main>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

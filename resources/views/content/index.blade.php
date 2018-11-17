@@ -29,7 +29,7 @@
     <!-- Container -->
 </section>
 
-<section style="background-image:url(/images/network-security.jpg)"
+{{--  <section style="background-image:url(/images/bg/engage-web.jpg)"
     class="footer-call-to-action wow fadeIn bg-image"
     data-wow-delay="200ms" data-wow-duration="1500ms">
     <div class="container">
@@ -42,9 +42,9 @@
             </div>
         </div>
     </div>
-</section>
+</section>  --}}
 
-<section class="about sec-padding">
+<section class="about">
     @include('content.webtech.summary', [
     'odd' => false, 'heading' => 'Web Design (UI/UX) & Development', 'image' => asset('images/pages/responsiveui.jpg'),
     'content' => '
@@ -66,10 +66,52 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3>Here will be any kind lorem ipsum heading</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have lorem</p>
-                <a href="#" class="thm-btn inverse mt-15 mr-15">Join Now</a> &nbsp;
-                <a href="#" class="thm-btn normal-btn mt-15">Contact Us</a>
+                <h3>We use a vast collection of tools and technology</h3>
+                <div class="clients-carousel owl-carousel owl-theme" data-slide="10">
+                        <div class="item">
+                            <div class="img-box">
+<img src="http://www.iconhot.com/icon/png/glossy-orange-orb-social-media/256/wordpress-logo-square-webtreatsetc-1.png"
+    alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="https://lh3.googleusercontent.com/v4RDrvHK-onLn_aMgAjOSPcz_-nDAVjhnanujSj2NLpIwOR32gA-Q_xkLnchXldeQfD13-AV3A=w128-h128-e365" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+<img src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/wkziafsbhekgdutq7jo4"
+    alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="https://cdn2.iconfinder.com/data/icons/crystalproject/crystal_project_256x256/apps/php.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="images/clients/logo-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="images/clients/logo-7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="images/clients/logo-7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="images/clients/logo-3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                <a href="#" class="thm-btn normal-btn mt-15">Get Started</a>
             </div>
         </div>
     </div>
@@ -89,10 +131,9 @@
         We can incorporate a number of third-party applications with your current web site, using APIs or modules created for all platforms.
     </p>'
     ])
-    <!-- Container -->
 </section>
 
-<section style="background-image:url(/images/network-security.jpg)" class="footer-call-to-action wow fadeIn bg-image"
+{{--  <section style="background-image:url(/images/network-security.jpg)" class="footer-call-to-action wow fadeIn bg-image"
     data-wow-delay="200ms" data-wow-duration="1500ms">
     <div class="container">
         <div class="row">
@@ -104,9 +145,9 @@
             </div>
         </div>
     </div>
-</section>
+</section>  --}}
 
-<section class="about sec-padding">
+<section class="about">
     @include('content.webtech.summary', [
     'odd' => false, 'heading' => 'Web Hosting & Maintanance', 'image' => asset('images/pages/webdevelop.png'),
     'content' => '
