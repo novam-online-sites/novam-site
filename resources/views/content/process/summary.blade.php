@@ -15,7 +15,7 @@
             <div class="card p-0 col-sm-12 col-md-4 column wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <article class="inner-box dark-overlay bg-img-cover" style="background-image: url(//placehold.it/300X300);">
                     <div class="content">
-                        <h3>Web Analysis </h3>
+                        <h3>Web Analytics </h3>
                         <div class="text">
                             <p>We start with your ideas and your current business/site status. Then we figure out what you need short term and long term</p>
                         </div>

@@ -9,7 +9,7 @@
                 <div class="col-md-3 col-sm-6 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="2500ms">
                     <pricing-option label="Start Up" link="header" price="99.99" per="month">
                         <ul>
-                            <li>Web Analysis <i class="fa fa-check"></i> </li>
+                            <li>Web Analytics <i class="fa fa-check"></i> </li>
                             <li>SEO Marketing <i class="fa fa-check"></i></li>
                             <li>Maintenance <i class="fa fa-times"></i> </li>
                             <li>Web Hosting <i class="fa fa-times"></i></li>
@@ -22,7 +22,7 @@
                 <div class="col-md-3 col-sm-6 wow zoomIn" data-wow-delay="200ms" data-wow-duration="2500ms">
                         <pricing-option label="Standard" link="header" price="149.99" per="month">
                             <ul>
-                                <li>Web Analysis <i class="fa fa-check"></i> </li>
+                                <li>Web Analytics <i class="fa fa-check"></i> </li>
                                 <li>SEO Marketing <i class="fa fa-check"></i></li>
                                 <li>Maintenance <i class="fa fa-check"></i> </li>
                                 <li>Web Hosting <i class="fa fa-times"></i></li>
@@ -34,7 +34,7 @@
                 <div class="col-md-3 col-sm-6 wow zoomIn" data-wow-delay="200ms" data-wow-duration="2500ms">
                     <pricing-option label="Premium" link="header" price="199.99" per="month">
                             <ul>
-                                <li>Web Analysis <i class="fa fa-check"></i> </li>
+                                <li>Web Analytics <i class="fa fa-check"></i> </li>
                                 <li>SEO Marketing <i class="fa fa-check"></i></li>
                                 <li>Maintenance <i class="fa fa-check"></i> </li>
                                 <li>Web Hosting <i class="fa fa-check"></i></li>
@@ -46,7 +46,7 @@
                 <div class="col-md-3 col-sm-6 wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <pricing-option label="Custom" link="header" price="44.99" per="hour">
                         <ul>
-                            <li>Web Analysis <i class="fa fa-check"></i> </li>
+                            <li>Web Analytics <i class="fa fa-check"></i> </li>
                             <li>SEO Marketing <i class="fa fa-check"></i></li>
                             <li>Maintenance <i class="fa fa-check"></i> </li>
                             <li>Web Hosting <i class="fa fa-check"></i></li>

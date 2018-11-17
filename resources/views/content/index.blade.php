@@ -13,7 +13,7 @@
 
 <section class="about sec-padding">
     @include('content.webtech.summary', [
-    'odd' => true, 'heading' => 'Web analysis & SEO marketing',
+    'odd' => true, 'heading' => 'Web analytics & SEO marketing',
     'image' => asset('images/pages/webanalytics.png'),
     'content' => '
     <p>
