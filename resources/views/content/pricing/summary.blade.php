@@ -44,14 +44,14 @@
                         </pricing-option>
                 </div>
                 <div class="col-md-3 col-sm-6 wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <pricing-option label="Custom" link="header" price="CUSTOM" per="for quote">
+                    <pricing-option label="Custom" link="header" price="__.__" per="for quote">
                         <ul>
-                            <li>Web Analysis <i class="fa fa-check"></i> </li>
-                            <li>SEO Marketing <i class="fa fa-check"></i></li>
-                            <li>Maintenance <i class="fa fa-check"></i> </li>
-                            <li>Web Hosting <i class="fa fa-check"></i></li>
-                            <li>UI/UX Design <i class="fa fa-check"></i></li>
-                            <li>Development <i class="fa fa-check"></i></li>
+                            <li>Web Analysis - __</li>
+                            <li>SEO Marketing - __</li>
+                            <li>Maintenance - __</li>
+                            <li>Web Hosting - __</li>
+                            <li>UI/UX Design - __</li>
+                            <li>Development - __</li>
                         </ul>
                     </pricing-option>
 
