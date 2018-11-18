@@ -10,7 +10,7 @@
                     <pricing-option label="Start Up" link="header" price="99.99" per="month">
                         <ul>
                             <li>Web Analysis <i class="fa fa-check"></i> </li>
-                            <li>SEO Marketing <i class="fa fa-check"></i></li>
+                            <li>SEO Marketing <i class="fa fa-times"></i></li>
                             <li>Maintenance <i class="fa fa-times"></i> </li>
                             <li>Web Hosting <i class="fa fa-times"></i></li>
                             <li>UI/UX Design <i class="fa fa-times"></i></li>
@@ -24,7 +24,7 @@
                             <ul>
                                 <li>Web Analysis <i class="fa fa-check"></i> </li>
                                 <li>SEO Marketing <i class="fa fa-check"></i></li>
-                                <li>Maintenance <i class="fa fa-check"></i> </li>
+                                <li>Maintenance <i class="fa fa-times"></i> </li>
                                 <li>Web Hosting <i class="fa fa-times"></i></li>
                                 <li>UI/UX Design <i class="fa fa-times"></i></li>
                                 <li>Development <i class="fa fa-times"></i></li>
@@ -37,14 +37,14 @@
                                 <li>Web Analysis <i class="fa fa-check"></i> </li>
                                 <li>SEO Marketing <i class="fa fa-check"></i></li>
                                 <li>Maintenance <i class="fa fa-check"></i> </li>
-                                <li>Web Hosting <i class="fa fa-check"></i></li>
+                                <li>Web Hosting <i class="fa fa-times"></i></li>
                                 <li>UI/UX Design <i class="fa fa-times"></i></li>
                                 <li>Development <i class="fa fa-times"></i></li>
                             </ul>
                         </pricing-option>
                 </div>
                 <div class="col-md-3 col-sm-6 wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <pricing-option label="Custom" link="header" price="44.99" per="hour">
+                    <pricing-option label="Custom" link="header" price="CUSTOM" per="for quote">
                         <ul>
                             <li>Web Analysis <i class="fa fa-check"></i> </li>
                             <li>SEO Marketing <i class="fa fa-check"></i></li>

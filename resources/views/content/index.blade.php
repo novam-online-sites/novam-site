@@ -67,7 +67,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h3>We use a vast collection of tools and technology</h3>
-                <div class="clients-carousel owl-carousel owl-theme" data-slide="10">
+                <div class="clients-carousel owl-carousel owl-theme" data-items="10">
                         <div class="item">
                             <div class="img-box">
 <img src="http://www.iconhot.com/icon/png/glossy-orange-orb-social-media/256/wordpress-logo-square-webtreatsetc-1.png"
