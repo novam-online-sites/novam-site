@@ -4,7 +4,7 @@
     <h2>Technologies </h2> &ensp; <span class="double-line"></span>
     <p>__('We use the best technologies to build the best web tools for your business')</p>
 </div>  --}}
-<div class="sec-content">
+<div class="sec-content" data-editor="html-container">
     <!-- Row -->
     <div class="row">
         @if(isset($odd) && $odd)
@@ -23,11 +23,6 @@
                     <span class="separator line-separator"></span>
                 </div>
                 {!! $content ?? '' !!}
-                {{--  <p>We don't just build websites and web applications for today's needs, we prepare you for the future.
-                    We use the best of the latest technologies to make sure you stay ahead</p>
-                <p>Have you ever built a site that becomes outdated, and updating it require you start from scratch?</p>
-                <p>Have you ever wanted to add a few new features or update some portions of your site but you were
-                    told you would have to start from scratch?</p>  --}}
             </div>
             <!-- Title -->
             <p><a class="mt-20 btn thm-btn inverse" href="about.html">Read More</a></p>
