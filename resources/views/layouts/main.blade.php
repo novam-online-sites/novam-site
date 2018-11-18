@@ -9,6 +9,7 @@
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <meta name="google-site-verification" content="{{ config('services.google.verify') }}" />
     <link rel="icon" href="images/resources/favico.ico" sizes="16x16">
     <!-- master stylesheet -->
     <link rel="stylesheet" href="{{ mix('css/main.css') }}">

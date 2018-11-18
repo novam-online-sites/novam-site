@@ -30,9 +30,13 @@ return [
     ],
 
     'stripe' => [
-        'model' => App\User::class,
+        'model' => App\Models\Auth\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
+    ],
+    'google' => [
+        'verify' => env('GOOGLE_VERIFICATION', 'rCq-x561q5pCPTONsV5JIGjKh0VtCTp5KjVWSf5Vxz8'),
+        'analytics' => env('GOOGLE_ANALYTICS_UA', 'rCq-x561q5pCPTONsV5JIGjKh0VtCTp5KjVWSf5Vxz8'),
     ],
 
 ];
