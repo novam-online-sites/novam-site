@@ -67,7 +67,7 @@ return [
         |
         */
 
-        'modules' => base_path('Modules'),
+        'modules' => base_path('modules'),
         /*
         |--------------------------------------------------------------------------
         | Modules assets path
@@ -148,10 +148,10 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'nwidart',
+        'vendor' => 'novam-modules',
         'author' => [
-            'name' => 'Nicolas Widart',
-            'email' => 'n.widart@gmail.com',
+            'name' => 'Hilkiah Makemo',
+            'email' => 'novam.online@gmail.com',
         ],
     ],
     /*
