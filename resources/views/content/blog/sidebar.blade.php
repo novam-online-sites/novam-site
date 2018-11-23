@@ -1,20 +1,8 @@
 <div class="side-bar-widget">
-    <div class="single-sidebar-widget search">
-        <form action="#">
-            <input type="text" placeholder="Search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
-    <div class="single-sidebar-widget category">
-        <h3 class="title">Catagories</h3>
-        <ul>
-            <li><a href="#">Domain</a></li>
-            <li><a href="#">Hosting</a></li>
-            <li><a href="#">Wordpress</a></li>
-            <li><a href="#">Server</a></li>
-        </ul>
-    </div>
+    @include('content.blog.filters')
     <div class="single-sidebar-widget popular-post">
+        <wysiwyg v-model="myHTML" />
+
         <h3 class="title">Popular Posts</h3>
         <ul>
             <li>

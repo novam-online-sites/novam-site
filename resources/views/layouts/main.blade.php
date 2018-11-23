@@ -33,9 +33,13 @@
     @include('_partials.main.navBar')
     <!-- /.mainmenu-area -->
 
-    <div id="app">
-        @yield('content')
-    </div>
+    @hasSection ('layout')
+        @yield("layout")
+    @else
+        <div id="app">
+            @yield('content')
+        </div>
+    @endif
 
     <!--Footer div-->
     @include('_partials.main.footer')

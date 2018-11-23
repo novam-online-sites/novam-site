@@ -12,13 +12,14 @@ const mix = require('laravel-mix');
  */
 
 mix
-    .js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css')
-    .js('resources/js/main.js', 'public/js')
-    .sass('resources/sass/main.scss', 'public/css')
-    .js('resources/js/scripts.js', 'public/js')
-    .sass('resources/sass/styles.scss', 'public/css')
-    .js('resources/js/vendor.js', 'public/js')
-    .sass('resources/sass/vendor.scss', 'public/css')
-    .js('resources/js/page.js', 'public/js')
-    .sass('resources/sass/page.scss', 'public/css');
+    .setPublicPath('public')
+    .js('resources/js/app.js', 'js')
+    .sass('resources/sass/app.scss', 'css')
+    .js('resources/js/main.js', 'js')
+    .sass('resources/sass/main.scss', 'css')
+    .js('resources/js/scripts.js', 'js')
+    .sass('resources/sass/styles.scss', 'css')
+    .js('resources/js/vendor.js', 'js')
+    .sass('resources/sass/vendor.scss', 'css')
+    .js('resources/js/page.js', 'js')
+    .sass('resources/sass/page.scss', 'css');

@@ -136,7 +136,8 @@
                 </div>
             </div>
             <div class="col-md-4 pull-right">
-                <div class="side-bar-widget">
+                @include('content.blog.sidebar')
+                {{-- <div class="side-bar-widget">
                     <div class="single-sidebar-widget search">
                         <form action="#">
                             <input type="text" placeholder="Search">
@@ -216,7 +217,7 @@
                             data-enable-slide="false">
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

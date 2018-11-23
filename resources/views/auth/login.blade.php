@@ -1,7 +1,9 @@
-@extends('layouts.main')
+@extends('layouts.auth')
 
 @section('content')
 <div class="py-3 my-3">
+    <h1 class="text-center h3">Client Authentication</h1>
+    <hr>
 <form method="POST" action="{{ route('login') }}">
     @csrf
 
@@ -52,16 +54,15 @@
             </button>
         </div>
     </div>
-    <div class="form-group row mb-0">
-        <div class="col-md-8 offset-md-4">
-            <a class="btn btn-link" href="{{ route('password.request') }}">
-                {{ __('Forgot Your Password?') }}
-            </a>
-            <a class="btn btn-link" href="{{ route('register') }}">
-                {{ __('New Client? Register') }}
-            </a>
-        </div>
-    </div>
 </form>
+<hr>
+<div class="text-center">
+    <a class="btn btn-link" href="{{ route('password.request') }}">
+        {{ __('Forgot Your Password?') }}
+    </a>
+    <a class="btn btn-link" href="{{ route('register') }}">
+        {{ __('New Client? Get Started') }}
+    </a>
+</div>
 </div>
 @endsection
