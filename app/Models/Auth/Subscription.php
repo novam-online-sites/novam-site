@@ -3,10 +3,8 @@
 namespace App\Models\Auth;
 
 use Illuminate\Database\Eloquent\Model;
-use Laravel\Cashier\Billable;
 
-class Account extends Model
+class Subscription extends Model
 {
     //
-    use Billale;
 }
