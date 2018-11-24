@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.css" />
     <link rel="stylesheet" href="{{ mix('css/styles.css') }}" />
+    @stack('styles')
 </head>
 
 <body>
@@ -81,6 +82,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <!-- thm custom script -->
     <script src="{{ mix('js/scripts.js') }}"></script>
+    @stack('scripts')
     <script defer>
         (function ($) {
 

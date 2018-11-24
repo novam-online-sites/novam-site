@@ -18,6 +18,7 @@ Route::get('/test', function () {
 });
 
 Auth::routes();
+Route::post('/passwords/text', 'Auth\ResetPasswordController@sendText')->name('password.text');
 
 Route::get('/home', 'HomeController@index')->name('home');
 

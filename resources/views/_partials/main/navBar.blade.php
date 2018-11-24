@@ -26,7 +26,14 @@
                 </ul>
                 <ul class="ml-auto">
                     <li class="donate-btn">
+                        @auth
+                        <form action="{{ route('logout') }}">
+                            @csrf
+                            <button type="submit" class="thm-btn m-1 p-1" href="/login">Logout</button>
+                        </form>
+                        @else
                         <a class="thm-btn m-1 p-1" href="/login">Clients</a>
+                        @endauth
                         <div class="nav-footer float-left">
                             <button><i class="fa fa-bars"></i></button>
                         </div>
@@ -48,7 +55,14 @@
             </div>
             <div class="donate-col col-xs-12 col-sm-12 col-lg-3 col-md-3">
                 <div class="donate-btn clearfix">
+                    @auth
+                    <form action="{{ route('logout') }}">
+                        @csrf
+                        <button type="submit" class="thm-btn" href="/login">Logout</button>
+                    </form>
+                    @else
                     <a class="thm-btn pull-right" href="/home">Clients</a>
+                    @endauth
                     <div class="nav-footer pull-left">
                         <button><i class="fa fa-bars"></i></button>
                     </div>
