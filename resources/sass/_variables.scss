@@ -22,3 +22,22 @@ $cyan: #6cb2eb;
 $primary: #1599ac;
 $light: #dddddd;
 $white: #ffffff;
+
+// $bg-body: #f9f9f9;
+
+$red: #ee4d4d;
+$blue: #2b2e48;
+$primary-color: $red;
+$secondary-color: $blue;
+
+
+// Typography
+$base-font: helvetica, arial, tahoma, verdana;
+$base-font-title: "Dosis", arial, tahoma, verdana;
+
+$base-font-color: #726f77;
+
+// Timeline
+$timeline-color: $primary-color;
+
+@import 'mixins';
