@@ -8,5 +8,9 @@ use Laravel\Cashier\Billable;
 class Account extends Model
 {
     //
-    use Billale;
+    use Billable;
+
+    protected $fillable = [
+        'name', 'url', 'stripe_id'
+    ];
 }

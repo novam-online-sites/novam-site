@@ -8,10 +8,10 @@
         @csrf
 
         <div class="form-group row">
-            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Company Name') }}</label>
+            <label for="comp" class="col-md-4 col-form-label text-md-right">{{ __('Company Name') }}</label>
             <div class="col-md-6">
-                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name"
-                    value="{{ old('name') }}" required autofocus>
+                <input id="comp" type="name" class="form-control{{ $errors->has('comp') ? ' is-invalid' : '' }}" name="comp"
+                    value="{{ old('comp') }}" required autofocus>
 
                 @if ($errors->has('name'))
                 <span class="invalid-feedback" role="alert">

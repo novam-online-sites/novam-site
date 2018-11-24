@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Models\Auth\User;
+use App\Models\Auth\Account;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -63,10 +64,17 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-        ]);
+        return \DB::transaction(function() use($data){
+            $Acct = Account::create([
+                "name" => $data['comp'],
+                'url'  => $data['url']
+            ]);
+            return User::create([
+                'name' => $data['name'],
+                'email' => $data['email'],
+                'account_id' => $Acct->id,
+                'password' => Hash::make($data['password']),
+            ]);
+        });
     }
 }
