@@ -34,35 +34,7 @@
                                 <li><span class="icon fa fa-tag pl-5"></span> <a href="#">Yoga Trainer</a></li>
                             </ul>
                         </div>
-                        <div class="content pt-20">
-                            <p>Lorem ipsum dolor sit amet, his ea unum ponderum, detracto ponderum an vim. Equidem
-                                evertitur vel ea, has ad inermis principes. Mentitum appareat conceptam id quo. Vis
-                                evertitur referrentur ad, no laoreet consetetur reformidans pro, sit habeo omnes eu.
-                            </p>
-                            <br>
-                            <p> Iisque quaeque propriae has no. Modo blandit tincidunt ne eos, diam periculis
-                                disputationi usu cu. Ea eos suscipit expetendis. Vix ea quot modus, id novum vocibus
-                                pro. Nec autem ullum albucius no, vel ne tritani omnesque omittantur. Pro fierent
-                                hendrerit assueverit et, per quod luptatum comprehensam in.</p>
-                            <br>
-                            <p> No consulatu comprehensam nam. Ferri dolore sententiae te eum, nibh dictas definitiones
-                                mea ei. Nec cu augue dicunt, est id verear labitur necessitatibus. Salutandi quaerendum
-                                ex nec.</p>
-                            <br>
-                            <p> Cu quo audire apeirian. Dolore necessitatibus sea id, nihil mandamus an ius, per
-                                recusabo interesset reprehendunt ea. In vix autem vituperatoribus, mei sint ipsum
-                                dolorem ex, quodsi vitupera</p>
-                            <div class="bottom-box clearfix mt-30">
-                                <span class="pull-left">Tag: <a class="text-thm" href="#">Exercise, Workout</a></span>
-                                <ul class="pull-right share">
-                                    <li><span>Share: </span></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <wysiwyg ></wysiwyg>
                     </div>
                 </article>
                 <div class="media border-bottom pb-60">

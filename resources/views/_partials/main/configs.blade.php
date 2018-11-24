@@ -1,3 +1,4 @@
+@auth
 <div class="config open">
     <div class="config-options" id="show-settings">
         <h4>Settings</h4>
@@ -24,3 +25,4 @@
     </div>
     <a class="show-theme-options" href="#show-settings" onclick="$(this).parent().toggleClass('open')"><i class="fa fa-cog"></i></a>
 </div>
+@endauth
