@@ -47623,9 +47623,11 @@ if (token) {
 /* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
+
 Vue.component('ArticleSummary', __webpack_require__(55));
 Vue.component('PricingOption', __webpack_require__(61));
 Vue.component('WysiwygEditor', __webpack_require__(66));
+Vue.component('TimelineView', __webpack_require__(83));
 
 /***/ }),
 /* 55 */
@@ -48055,6 +48057,262 @@ module.exports = Component.exports
         });
     });
 })(jQuery);
+
+/***/ }),
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */,
+/* 80 */,
+/* 81 */,
+/* 82 */,
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(84)
+}
+var normalizeComponent = __webpack_require__(11)
+/* script */
+var __vue_script__ = __webpack_require__(86)
+/* template */
+var __vue_template__ = __webpack_require__(87)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/components/blocks/TimelineView.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-d80c4a64", Component.options)
+  } else {
+    hotAPI.reload("data-v-d80c4a64", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(85);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(38)("38e9d7b8", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d80c4a64\",\"scoped\":false,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TimelineView.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d80c4a64\",\"scoped\":false,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TimelineView.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(37)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 86 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+/* 87 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "timeline" } }, [
+      _c("div", { staticClass: "timeline-item" }, [
+        _c("div", { staticClass: "timeline-icon" }, [
+          _c("i", { staticClass: "fa fa-star fa-2x" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "timeline-content" }, [
+          _c("h2", [_vm._v("PROJECT ANALYSIS")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                   Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.\n               "
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                   Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.\n               "
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("hr", { staticClass: "my-2 w-100" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "col" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btn-block",
+                  attrs: { href: "#" }
+                },
+                [_vm._v("preview")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btn-block",
+                  attrs: { href: "#" }
+                },
+                [_vm._v("comment")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btn-block",
+                  attrs: { href: "#" }
+                },
+                [_vm._v("approve")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btn-block",
+                  attrs: { href: "#" }
+                },
+                [_vm._v("terminate")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("hr", { staticClass: "my-2 w-100" }),
+            _vm._v(" "),
+            _c("progress")
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-d80c4a64", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

@@ -77,10 +77,12 @@
             margin-left: -23px;
             @include prefix(border-radius, 50%);
 
-            svg {
+            svg, i {
                 position: relative;
                 top: 14px;
                 left: 14px;
+                color: $white;
+                font-size: 1.5rem;
             }
         }
 
