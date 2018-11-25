@@ -1,4 +1,4 @@
-<h1 class="project-name">PROJECT STATUS</h1>
+
 <div id="timeline">
     <div class="timeline-item">
         <div class="timeline-icon">
@@ -16,17 +16,11 @@
             </p>
             <div class="row">
                 <hr class="my-2 w-100">
-                <div class="col">
-                    <a href="#" class="btn btn-primary btn-block">preview</a>
-                </div>
-                <div class="col">
-                    <a href="#" class="btn btn-primary btn-block">comment</a>
-                </div>
-                <div class="col">
-                    <a href="#" class="btn btn-primary btn-block">approve</a>
-                </div>
-                <div class="col">
-                    <a href="#" class="btn btn-primary btn-block">terminate</a>
+                <div class="button-group mx-auto">
+                    <a href="#" class="btn btn-primary">preview</a>
+                    <a href="#" class="btn btn-primary">comment</a>
+                    <a href="#" class="btn btn-primary">approve</a>
+                    <a href="#" class="btn btn-primary">terminate</a>
                 </div>
                 <hr class="my-2 w-100">
                 <progress>
@@ -42,7 +36,7 @@
 
         </div>
         <div class="timeline-content right">
-            <h2>UI/UX TEMPLATE DESIGN</h2>
+            <h2>TEMPLATE DESIGN</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab
                 libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
@@ -61,7 +55,7 @@
 
         </div>
         <div class="timeline-content">
-            <h2>DEVELOPMENT / PROGRAMMING</h2>
+            <h2>WEB PROGRAMMING</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab
                 libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
@@ -76,7 +70,7 @@
 
         </div>
         <div class="timeline-content right">
-            <h2>TESTING & DEPLOYMENT</h2>
+            <h2>TEST & DEPLOY</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab
                 libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.

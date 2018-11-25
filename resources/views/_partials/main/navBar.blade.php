@@ -47,7 +47,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                <div class="navigation">
+                <div class="navigation show collapse" id="navbar-menu">
                     <div class="nav-header pull-left">
                         @include('_partials.main.siteNav')
                     </div>
@@ -59,7 +59,7 @@
                     @auth dashboard  @else Get Started  @endauth
                     </a>
                     <div class="nav-footer pull-left">
-                        <button><i class="fa fa-bars"></i></button>
+                        <button type="button" data-toggle="collapse" data-target="#navbar-menu"><i class="fa fa-bars"></i></button>
                     </div>
                 </div>
             </div>
