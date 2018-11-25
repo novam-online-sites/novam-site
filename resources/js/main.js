@@ -7,10 +7,10 @@
 
 require('./core');
 
-
 window.Vue = require('vue');
-let {wysiwyg} = require("vue-wysiwyg");
-Vue.use(wysiwyg);
+// let {wysiwyg} = require("vue-wysiwyg");
+// Vue.use(wysiwyg);
+
 require('./html');
 require('./forms');
 /**

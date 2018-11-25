@@ -547,6 +547,12 @@ if ($('.testimonials').length) {
         }
     });
 }
+
+if ($('.owl-slider').length) {
+    $('.owl-slider').each(function () {
+        $(this).owlCarousel($(this).data() || {});
+    });
+}
 //Testimonial Slider
 if ($('.testimonials').length) {
     $('.client-carsoule').owlCarousel({

@@ -55,14 +55,9 @@
             </div>
             <div class="donate-col col-xs-12 col-sm-12 col-lg-3 col-md-3">
                 <div class="donate-btn clearfix">
-                    @auth
-                    <form action="{{ route('logout') }}" method="POST">
-                        @csrf
-                        <button type="submit" class="thm-btn">Logout</button>
-                    </form>
-                    @else
-                    <a class="thm-btn pull-right" href="/home">Clients</a>
-                    @endauth
+                    <a class="thm-btn pull-right" href="/home">
+                    @auth dashboard  @else Get Started  @endauth
+                    </a>
                     <div class="nav-footer pull-left">
                         <button><i class="fa fa-bars"></i></button>
                     </div>
