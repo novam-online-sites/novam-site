@@ -47535,6 +47535,8 @@ module.exports = __webpack_require__(51);
 __webpack_require__(52);
 
 window.Vue = __webpack_require__(34);
+// let {wysiwyg} = require("vue-wysiwyg");
+// Vue.use(wysiwyg);
 
 __webpack_require__(54);
 __webpack_require__(67);
@@ -48042,7 +48044,7 @@ module.exports = Component.exports
 
     $(document).ready(function () {
         $('[type="url"]', document).on('blur change', function () {
-            if (!this.value.startsWith('http')) {
+            if (this.value && !this.value.startsWith('http')) {
                 this.value = 'http://' + this.value;
             }
         });
