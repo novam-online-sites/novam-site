@@ -17,7 +17,11 @@ Route::get('/test', function () {
         return view('welcome');
 });
 
+Route::any('/search', SearchController::class)->name('search');
+
 Auth::routes();
+Route::get('login/{driver}', 'Auth\OAuthController@redirectTo');
+Route::get('login/{driver}/callback', 'Auth\OAuthController@doCallback');
 Route::post('/passwords/text', 'Auth\ResetPasswordController@sendText')->name('password.text');
 
 Route::get('/home', 'HomeController@index')->name('home');
