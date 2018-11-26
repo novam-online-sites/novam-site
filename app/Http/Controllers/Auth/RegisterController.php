@@ -64,17 +64,21 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $data['password'] = str_random(12);
         return \DB::transaction(function() use($data){
             $Acct = Account::create([
                 "name" => $data['comp'],
                 'url'  => $data['url']
             ]);
-            return User::create([
+
+            $User = User::create([
                 'name' => $data['name'],
                 'email' => $data['email'],
                 'account_id' => $Acct->id,
-                'password' => Hash::make($data['password']),
+                'password' => Hash::make($code = $data['password']),
             ]);
+            $User->notify(new SendActivationCode($code));
+            return $User;
         });
     }
 }
