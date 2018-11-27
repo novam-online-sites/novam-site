@@ -30,18 +30,18 @@
                     @endif
                 </div>
                 <div class="form-group">
-                        <label for="type" class="col-form-label">{{ __('Project Type') }}</label>
-                        <select class="form-control{{ $errors->has('type') ? ' is-invalid' : '' }}" name="type">
-                            <option value="" {!! old('type') == ($type = 'Analysis')? 'selected': '' !!}>
+                    <label for="type" class="col-form-label">{{ __('Project Type') }}</label>
+                    <select class="form-control{{ $errors->has('type') ? ' is-invalid' : '' }}" name="type">
+                        <option value="" {!! old('type')==($type='Analysis' )? 'selected' : '' !!}>
                             {{ $type }}
-                            </option>
-                        </select>
-                        @if ($errors->has('type'))
-                        <span class="invalid-feedback" role="alert">
-                            <strong>{{ $errors->first('type') }}</strong>
-                        </span>
-                        @endif
-                    </div>
+                        </option>
+                    </select>
+                    @if ($errors->has('type'))
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $errors->first('type') }}</strong>
+                    </span>
+                    @endif
+                </div>
             </div>
             <div class="col">
                 <div class="form-group">
@@ -76,19 +76,13 @@
                     </span>
                     @endif
                 </div>
-
-                {{--  <div class="form-group">
-                    <label for="password-confirm" class="col-form-label">{{ __('Confirm Password') }}</label>
-                    <input id="password-confirm" type="password" class="form-control" name="password_confirmation"
-                    required>
-                </div>  --}}
-                <div class="form-group mb-0">
-                    <div class="col-md-6 offset-md-4">
-                        <button type="submit" class="btn btn-primary">
-                            {{ __('Register') }}
-                        </button>
-                    </div>
-                </div>
+            </div>
+        </div>
+        <div class="form-group mb-0">
+            <div class="col-md-4 offset-md-4">
+                <button type="submit" class="btn btn-primary btn-block">
+                    {{ __('Register') }}
+                </button>
             </div>
         </div>
     </form>

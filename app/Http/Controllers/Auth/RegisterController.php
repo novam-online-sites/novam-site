@@ -7,6 +7,7 @@ use App\Models\Auth\Account;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use App\Notifications\Auth\SendActivationCode;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
@@ -52,7 +53,6 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
         ]);
     }
 
@@ -64,8 +64,10 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $data['password'] = str_random(12);
         return \DB::transaction(function() use($data){
+
+            $data['password'] = $code = str_random(12);
+
             $Acct = Account::create([
                 "name" => $data['comp'],
                 'url'  => $data['url']
@@ -75,8 +77,9 @@ class RegisterController extends Controller
                 'name' => $data['name'],
                 'email' => $data['email'],
                 'account_id' => $Acct->id,
-                'password' => Hash::make($code = $data['password']),
+                'password' => Hash::make($code),
             ]);
+
             $User->notify(new SendActivationCode($code));
             return $User;
         });
