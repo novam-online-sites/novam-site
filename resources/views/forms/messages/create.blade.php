@@ -1,4 +1,4 @@
-<form action="{{ route('messages') }}" method="POST">
+<form action="/messages" method="POST">
     @csrf
     <div class="form-group">
         <input type="text" name="title" class="form-control" />
