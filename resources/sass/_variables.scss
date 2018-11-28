@@ -41,3 +41,8 @@ $base-font-color: #726f77;
 $timeline-color: $primary-color;
 
 @import 'mixins';
+
+.primary{
+    background: $primary;
+    color: $white;
+}
