@@ -4,6 +4,7 @@
 <div class="container py-3 my-3">
     <h1 class="text-center h3">Client Registration</h1>
     <hr>
+    @include('_partials.auth.alerts')
     <form method="POST" action="{{ route('register') }}">
         @csrf
         <div class="row">

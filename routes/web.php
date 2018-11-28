@@ -22,9 +22,11 @@ Route::get('/test', function () {
 Route::any('/search', SearchController::class)->name('search');
 
 Auth::routes();
-Route::get('login/{driver}', 'Auth\OAuthController@redirectTo');
-Route::get('login/{driver}/callback', 'Auth\OAuthController@doCallback');
-Route::post('/passwords/text', 'Auth\ResetPasswordController@sendText')->name('password.text');
+Route::middleware('guest')->group(function(){
+    Route::get('login/{driver}', 'Auth\OAuthController@redirectTo')->name('login.social');
+    Route::get('login/{driver}/callback', 'Auth\OAuthController@doCallback')->name('login.callback');
+    Route::post('/passwords/text', 'Auth\ResetPasswordController@sendText')->name('password.text');
+});
 
 Route::get('/home', 'HomeController@index')->name('home');
 

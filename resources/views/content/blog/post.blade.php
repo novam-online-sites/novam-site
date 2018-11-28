@@ -34,7 +34,9 @@
                                 <li><span class="icon fa fa-tag pl-5"></span> <a href="#">Yoga Trainer</a></li>
                             </ul>
                         </div>
-                        <wysiwyg ></wysiwyg>
+                        <wysiwyg-editor>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas saepe reprehenderit dolor ipsam in at dolorem placeat ex! Atque beatae sequi distinctio aliquid molestias odio magni quis quia esse!
+                        </wysiwyg-editor>
                     </div>
                 </article>
                 <div class="media border-bottom pb-60">
