@@ -21,19 +21,10 @@ Route::get('/test', function () {
 
 Route::any('/search', SearchController::class)->name('search');
 
-<<<<<<< HEAD
-Auth::routes();
-Route::middleware('guest')->group(function(){
-    Route::get('login/{driver}', 'Auth\OAuthController@redirectTo')->name('login.social');
-    Route::get('login/{driver}/callback', 'Auth\OAuthController@doCallback')->name('login.callback');
-    Route::post('/passwords/text', 'Auth\ResetPasswordController@sendText')->name('password.text');
-});
-=======
 Auth::routes(['verify' => true]);
 Route::get('login/{driver}', 'Auth\OAuthController@redirectTo');
 Route::get('login/{driver}/callback', 'Auth\OAuthController@doCallback');
 Route::post('/passwords/text', 'Auth\ResetPasswordController@sendText')->name('password.text');
->>>>>>> a55b3413f844f3b3b3651a22737910b959f1b87a
 
 Route::get('/home', 'HomeController@index')->name('home');
 
