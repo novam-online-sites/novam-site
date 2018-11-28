@@ -5,6 +5,11 @@
 /*  GREEN Color $primary
 /*===================================================================================*/
 
+.primary {
+  background: #1599ac;
+  color: #ffffff;
+}
+
 .switch-field {
   overflow: hidden;
 }
@@ -237,17 +242,20 @@
   border-bottom: 4px solid #1599ac;
 }
 
-.navigation .nav-header > ul > li:hover > a {
+.navigation .nav-header > ul > li:hover > a,
+.navigation .nav-header > ul > li > a.active {
   color: #1599ac;
 }
 
-.navigation .nav-header > ul > li > ul > li:hover > a {
+.navigation .nav-header > ul > li > ul > li:hover > a,
+.navigation .nav-header > ul > li > ul > li > a.active {
   background: #1599ac;
   color: #fff;
   border-color: 0;
 }
 
-.navigation .nav-header > ul > li > ul > li > ul > li:hover > a {
+.navigation .nav-header > ul > li > ul > li > ul > li:hover > a,
+.navigation .nav-header > ul > li > ul > li > ul > li > a.active {
   background: #1599ac;
   color: #fff;
   border-color: 0;
@@ -14710,5 +14718,9 @@ table tr td {
 
 .config-options ul li a {
   padding: 5px;
+}
+
+.cursor {
+  cursor: pointer;
 }
 

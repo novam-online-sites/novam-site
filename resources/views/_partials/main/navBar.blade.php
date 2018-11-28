@@ -1,4 +1,4 @@
-{{--  <nav class="mainmenu-area stricky">
+{{-- <nav class="mainmenu-area stricky">
     <div class="container">
         <div class="navigation">
             <div class="nav-header d-flex">
@@ -42,27 +42,63 @@
             </div>
         </div>
     </div>
-</nav>  --}}
+</nav> --}}
 <nav class="mainmenu-area stricky">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                <div class="navigation" id="navbar-menu">
-                    <div class="nav-header pull-left">
-                        @include('_partials.main.siteNav')
-                    </div>
-                </div>
-            </div>
-            <div class="donate-col col-xs-12 col-sm-12 col-lg-3 col-md-3">
-                <div class="donate-btn clearfix">
-                    <a class="thm-btn pull-right" href="/home">
-                    @auth dashboard  @else Get Started  @endauth
+        @if (Route::is('home'))
+        <div class="my-3 pt-3">
+            <f class="container">
+                <h1 class="h2 d-flex">
+                    <a href="/" class="btn btn-primary dropdown-toggle float-left" id="siteNavMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-back"></i> Back to site
                     </a>
-                    <div class="nav-footer pull-left">
-                        <button type="button" onclick="$('#navbar-menu .nav-header').slideToggle();"<i class="fa fa-bars"></i></button>
+                    <div class="dropdown-menu" aria-labelledby="siteNavMenuButton">
+                        @include('_partials.main.siteNav', ['class' => ' class="dropdown-item"'])
                     </div>
+                    <span class="d-inline-block mx-auto">Dashboard</span>
+                    <div class="dropdown float-right">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="userNavMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ Auth::user()->name }}
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userNavMenuButton">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="#">Account</a>
+                            <div class="dropdown-divider"></div>
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+                                <button type='submit' class="dropdown-item cursor btn btn-primary"><i class="fa fa-power-off"></i>
+                                    LOGOUT</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </h1>
+        </div>
+    </div>
+    @else
+    <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div class="navigation" id="navbar-menu">
+                <div class="nav-header pull-left">
+                    @include('_partials.main.siteNav')
                 </div>
             </div>
         </div>
+        <div class="donate-col col-xs-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="donate-btn clearfix">
+                <a class="thm-btn pull-right" href="/home">
+                    Clients
+                </a>
+                <div class="nav-footer pull-left">
+                    <button type="button" onclick="$('#navbar-menu .nav-header').slideToggle();" <i class="fa fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @endif
     </div>
 </nav>

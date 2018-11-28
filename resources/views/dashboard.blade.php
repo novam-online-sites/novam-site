@@ -1,17 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="my-3">
-    <div class="container">
-        <h1 class="h2">
-            Dashboard
-            <form method="POST" action="{{ route('logout') }}" class="float-right">
-                @csrf
-                <button type='submit' class="btn bt-primary">LOGOUT</button>
-            </form>
-        </h1>
-    </div>
-</div>
-<hr>
+<div class="w-100 my-3"></div>
 <div class="container">
     <!-- Nav tabs -->
     <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
@@ -71,19 +60,19 @@
         </div>
         <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
             <div class="row">
-                <div class="col-3">
+                <div class="col">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                            aria-controls="v-pills-home" aria-selected="true">Write New</a>
+                            aria-controls="v-pills-home" aria-selected="true">Write</a>
                         <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
                             aria-controls="v-pills-profile" aria-selected="false">Inbox</a>
                         <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-                            aria-controls="v-pills-messages" aria-selected="false">Alerts</a>
+                            aria-controls="v-pills-messages" aria-selected="false">Sent</a>
                         <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
                             aria-controls="v-pills-settings" aria-selected="false">Trash</a>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-10">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                             @include('forms.messages.create')
@@ -158,4 +147,5 @@
         </div>
     </div>
 </div>
+<div class="w-100 my-3"></div>
 @endsection
