@@ -21,7 +21,7 @@ Route::get('/test', function () {
 
 Route::any('/search', SearchController::class)->name('search');
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 Route::get('login/{driver}', 'Auth\OAuthController@redirectTo');
 Route::get('login/{driver}/callback', 'Auth\OAuthController@doCallback');
 Route::post('/passwords/text', 'Auth\ResetPasswordController@sendText')->name('password.text');
