@@ -18,7 +18,8 @@
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
         "vue": "^2.5.7",
-        "vue-wysiwyg": "^1.7.2"
+        "vue-wysiwyg": "^1.7.2",
+        "vue-wysiwyg-2": "^1.7.94"
     },
     "dependencies": {
         "font-awesome": "^4.7.0",
