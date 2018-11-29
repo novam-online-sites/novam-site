@@ -22,7 +22,15 @@
             <div class="col-md-8 featured-blog-post pull-left">
                 <article class="inner-box pb-30">
                     <figure class="image">
-                        <a href="blog-details.html"><img src="//placehold.it/480X360" alt=""></a>
+                        <a href="blog-details.html">
+                            <single-image
+                                id="{{ $id ?? 1 }}"
+                                name="image"
+                                edit="{{ request()->has('edit') }}"
+                                api="{{ request()->url() }}">
+                                {{ $Blog->image ?? "//placehold.it/480X360" }}
+                            </single-image>
+                        </a>
                     </figure>
                     <div class="post-lower">
                         <div class="post-header">
@@ -34,7 +42,11 @@
                                 <li><span class="icon fa fa-tag pl-5"></span> <a href="#">Yoga Trainer</a></li>
                             </ul>
                         </div>
-                        <wysiwyg-editor id="{{ $id ?? 1 }}" name="content" edit="{{ request()->has('edit') }}" api="{{ request()->url() }}">
+                        <wysiwyg-editor
+                            id="{{ $id ?? 1 }}"
+                            name="content"
+                            edit="{{ request()->has('edit') }}"
+                            api="{{ request()->url() }}">
                             {!! $Blog->content !!}
                         </wysiwyg-editor>
                     </div>
