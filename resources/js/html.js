@@ -6,3 +6,5 @@ Vue.component('WysiwygToolbar', require('../components/blocks/WysiwygToolbar.vue
 Vue.component('WysiwygEditor', require('../components/blocks/WysiwygEditor.vue'));
 Vue.component('TimelineView', require('../components/blocks/TimelineView.vue'));
 Vue.component('ContentEditor', require('../components/blocks/ContentEditor.vue'));
+Vue.component('ContentEditor', require('../components/blocks/ContentEditor.vue'));
+Vue.component('SingleImage', require('../components/blocks/SingleImage.vue'));

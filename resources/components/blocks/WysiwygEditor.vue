@@ -1,7 +1,7 @@
 <template>
     <div class="wysiwyg-editor">
         <div class="content">
-            <wysiwyg v-model="content" />
+            <wysiwyg v-model="model.value" />
             <div class="content-saver">
                 <button @click.prevent="saveContent">save</button>
             </div>
@@ -16,32 +16,32 @@ export default {
     data(){
         return {
             editing: this.edit || false,
-            content: this.$slots.default[0].text
+            model: {
+                id: this.id,
+                name: this.name,
+                value: this.$slots.default[0].text
+            }
         }
     },
     mounted(){
-        this.getContent();
+        this.setContent();
     },
     methods: {
         setContent(){
             if(this.editing) return;
-            $('.wysiwyg-editor>.content').html(this.content);
+            $('.wysiwyg-editor>.content').html(this.value);
         },
         getContent(){
             axios.get(this.api)
-                .then(res => self.content = res.data)
+                .then(res => self.model.value = res.data)
                 .catch(err => console.log(err.response));
         },
         saveContent(){
             self = this;
             self.editing = false;
-            let data = {
-                id: this.id,
-                name: this.name,
-                value: this.content
-            };
-            axios.put(self.api, data)
-                .then(res => self.content = res.data)
+
+            axios.put(self.api, self.model)
+                .then(res => self.value = res.data)
                 .catch(err => console.log(err.response));
         }
 

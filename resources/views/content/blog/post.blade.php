@@ -45,9 +45,9 @@
                         <wysiwyg-editor
                             id="{{ $id ?? 1 }}"
                             name="content"
-                            edit="{{ request()->has('edit') }}"
+                            edit="{{ request()->filled('edit') }}"
                             api="{{ request()->url() }}">
-                            {!! $Blog->content !!}
+                            {!! $Blog->content ?? '' !!}
                         </wysiwyg-editor>
                     </div>
                 </article>
