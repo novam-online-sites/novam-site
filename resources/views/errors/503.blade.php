@@ -3,7 +3,7 @@
 <div class="container pt-3">
 <div class="jumbotron text-center mt-3">
     <h1 class="display-3">503</h1>
-    <p class="lead">Service Unavailable</p>
+    <p class="lead">Undergoing Maintenance. Be right back!</p>
     <hr class="my-2">
     <p>
         You can add your ip address to our list and request limited access below
