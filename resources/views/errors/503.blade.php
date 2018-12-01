@@ -6,7 +6,7 @@
     <p class="lead">Undergoing Maintenance. Be right back!</p>
     <hr class="my-2">
     <p>
-        You can add your ip address to our list and request limited access below
+        You can add your ip address to our list to request a limited access:
     </p>
     <form action="/account/request" class="form-inline" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
