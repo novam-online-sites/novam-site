@@ -9,7 +9,7 @@
         You can add your ip address to our list and request limited access below
     </p>
     <form action="/account/request" class="form-inline" method="POST">
-        @csrf
+        input
         <div class="ml-auto form-group">
             <label for="" class="col-form-label mr-2">IP Address</label>
             <input type="text" class="form-control" name="ip">

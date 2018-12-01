@@ -42,8 +42,8 @@ return [
         'redirect' => 'http://your-callback-url',
     ],
     'facebook' => [
-        'client_id' => env('FACEBOOK_CLIENT_ID', '1114345845399866'), // Your GitHub Client ID
-        'client_secret' => env('FACEBOOK_CLIENT_SECRET', '457b2fabdc99af10cc36e4254c6d7fcb'), // Your GitHub Client Secret
+        'client_id' => env('FACEBOOK_CLIENT_ID'), // Your GitHub Client ID
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'), // Your GitHub Client Secret
         'redirect' => 'http://your-callback-url',
     ],
     'linkedin' => [
