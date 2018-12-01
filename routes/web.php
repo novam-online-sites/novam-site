@@ -37,3 +37,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('blog', Pages\BlogController::class);
 Route::any('{page?}', IndexController::class)->name('page');
+Route::resource('legal', Pages\LegalController::class);
