@@ -1,26 +1,53 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="zxx">
 
-        <title>{{config('app.name')}}</title>
+<head>
+    <meta charset="UTF-8">
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ config('app.name') }}</title>
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <meta name="google-site-verification" content="{{ config('services.google.verify') }}" />
+    <link rel="icon" href="images/resources/favico.ico" sizes="16x16">
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="{{ mix('css/main.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+    <link rel="stylesheet" href="{{ mix('css/styles.css') }}" />
+    @stack('styles')
+</head>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+<body>
+    <div class="se-pre-con"></div>
 
-        <!-- Styles -->
-        @yield('styles')
-    </head>
-    <body>
-      <main class="container" id="main">
-        @yield('content')
-      </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-        @yield('scripts')
-    </body>
+   <main class="main" id="app">
+        @hasSection ('layout')
+        @yield("layout")
+        @else
+        <div id="app">
+            @yield('content')
+        </div>
+        @endif
+   </main>
+
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top"><span class="fa fa-arrow-up"></span></div>
+
+    <!-- main jQuery -->
+    <script src="{{ mix('js/main.js') }}"></script>
+    <!-- WOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    @stack('scripts')
+    <script defer>
+        (function ($) {
+            $(window).on('load', function () {
+                $('.se-pre-con', document).fadeOut();
+            });
+        })(jQuery);
+    </script>
+</body>
+
 </html>

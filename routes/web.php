@@ -36,5 +36,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 // });
 
 Route::resource('blog', Blog\BlogController::class);
-Route::any('{page?}', IndexController::class)->name('page');
 Route::resource('legal', Pages\LegalController::class);
+Route::any('account/{page?}', Auth\AccountController::class)->name('account');
+Route::any('{page?}', IndexController::class)->name('page');
