@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use Closure;
 use Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode as Middleware;
 
 class CheckForMaintenanceMode extends Middleware
