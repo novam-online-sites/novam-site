@@ -15,4 +15,12 @@ class CheckForMaintenanceMode extends Middleware
         //
         "account/request"
     ];
+
+    public function handle($request, Closure $next)
+    {
+        if(!in_array($request->ip(), config('view.ips'))){
+            return abort(503);
+        }
+        return $next($request);
+    }
 }
