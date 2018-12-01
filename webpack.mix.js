@@ -23,3 +23,5 @@ mix
     .sass('resources/sass/vendor.scss', 'css')
     .js('resources/js/page.js', 'js')
     .sass('resources/sass/page.scss', 'css');
+
+    

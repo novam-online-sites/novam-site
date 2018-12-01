@@ -45,7 +45,7 @@
     </div>
 </section> --}}
 
-<section class="about">
+<section class="about pb-60">
     @include('content.webtech.summary', [
     'odd' => false, 'heading' => 'Web Design (UI/UX) & Development', 'image' => asset('images/pages/responsiveui.jpg'),
     'content' => '
@@ -121,20 +121,20 @@
 
 <section class="about sec-padding">
     @include('content.webtech.summary', [
-    'odd' => true, 'heading' => 'Updates & New Feature Integration', 'image' => asset('images/pages/webaddons.jpg'),
-    'content' => '
-    <p>
-        Perhaps your site or web app is solid but missing some key features, or your design is solid but the backend
-        needs work.
-    </p>
-    <p>
-        We add features to existing sites and web application and modify the underlying architecture to utilize the
-        best of the latest technologies.
-    </p>
-    <p>
-        We can incorporate a number of third-party applications with your current web site, using APIs or modules
-        created for all platforms.
-    </p>'
+        'odd' => true, 'heading' => 'Updates & New Feature Integration', 'image' => asset('images/pages/webaddons.jpg'),
+        'content' => '
+        <p>
+            Perhaps your site or web app is solid but missing some key features, or your design is solid but the backend
+            needs work.
+        </p>
+        <p>
+            We add features to existing sites and web application and modify the underlying architecture to utilize the
+            best of the latest technologies.
+        </p>
+        <p>
+            We can incorporate a number of third-party applications with your current web site, using APIs or modules
+            created for all platforms.
+        </p>'
     ])
 </section>
 
@@ -152,21 +152,20 @@
     </div>
 </section> --}}
 
-<section class="about">
+<section class="about pb-50">
     @include('content.webtech.summary', [
-    'odd' => false, 'heading' => 'Web Hosting & Maintanance', 'image' => asset('images/pages/webdevelop.png'),
-    'content' => '
-    <p>
-        We provide cloud-based hosting and ongoing support and maintenance 24/7/365 and guarantee 100% uptime!
-    </p>
-    <p>
-        Our cloud-based option offers your application high availability and speed optimization all across the globe.
-    </p>
-    <p>
-        We convert your current site to an interactive, dynamic web application and take your offline business online.
-    </p>'
+        'odd' => false, 'heading' => 'Web Hosting & Maintanance', 'image' => asset('images/pages/webdevelop.png'),
+        'content' => '
+        <p>
+            We provide cloud-based hosting and ongoing support and maintenance 24/7/365 and guarantee 100% uptime!
+        </p>
+        <p>
+            Our cloud-based option offers your application high availability and speed optimization all across the globe.
+        </p>
+        <p>
+            We convert your current site to an interactive, dynamic web application and take your offline business online.
+        </p>'
     ])
-    <!-- Container -->
 </section>
 
 <section style="background-image:url(/images/network-security.jpg)" class="footer-call-to-action wow fadeIn bg-image"
@@ -199,7 +198,6 @@
 <section style="background: #f1f1f1" class="home-serivce sec-padding pb-0">
     @include('content.pricing.summary')
 </section>
-
 
 <section style="background-image: url(/images/network-security.jpg)" class="footer-call-to-action bg-image">
 

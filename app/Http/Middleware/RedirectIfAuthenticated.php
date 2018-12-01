@@ -18,7 +18,9 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            Auth::user()->online_at = now();
+            Auth::user()->update([
+                'online_at' => now()
+            ]);
             return redirect('/home');
         }
 

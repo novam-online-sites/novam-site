@@ -43,6 +43,7 @@ class ResetPasswordController extends Controller
 
     public function sendText(Request $request)
     {
+        $phone = $request->phone;
         $this->validate($request, [
             'email' => 'required|exists:users'
         ], [
@@ -51,5 +52,6 @@ class ResetPasswordController extends Controller
         $User = User::whereEmail($request->email)->first();
         $User->temp_pass = bcrypt($code = str_random(12));
         $User->notify( new SendActivationCode($code) );
+        return back()->withStatus('Temporary password was sent to '.$phone);
     }
 }

@@ -4,11 +4,7 @@
 <div class="py-3 my-3">
     <h1 class="text-center h3">{{ __('Reset Password') }}</h1>
     <hr>
-    @if (session('status'))
-    <div class="alert alert-success" role="alert">
-        {{ session('status') }}
-    </div>
-    @endif
+    @include('_partials.auth.alerts')
 
     <form method="POST" action="{{ route('password.email') }}">
         @csrf
@@ -28,8 +24,8 @@
                 <button type="submit" class="btn btn-primary">
                     {{ __('Email Password Reset Link') }}
                 </button>
-            </div>           
-        </div>        
+            </div>
+        </div>
     </form>
     <form method="POST" action="{{ route('password.text') }}">
         @csrf
@@ -51,7 +47,7 @@
                 <button type="submit" class="btn btn-primary">
                     {{ __('Text Temporary Password') }}
                 </button>
-            </div>           
+            </div>
         </div>
         <!-- <div class="form-group row mb-0">
             <div class="col-md-6 offset-md-4">

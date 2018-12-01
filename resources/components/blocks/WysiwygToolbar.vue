@@ -1,12 +1,11 @@
 <template>
-    <div class="html-container">
-
+    <div class="wysiwyg-toolbar">
     </div>
 </template>
 
 <script>
 export default {
-    name: "html-container",
+    name: "wysiwyg-toolbar",
     props: [],
     data(){
         return {}

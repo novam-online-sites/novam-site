@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Pages;
+namespace App\Http\Controllers\Blog;
 
+use App\Models\Blog\Post;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -48,7 +49,8 @@ class BlogController extends Controller
     public function show($id)
     {
         //
-        return view('content.blog.post');
+        $data['Blog'] = Post::findOrNew($id);
+        return view('content.blog.post', $data);
     }
 
     /**
@@ -72,6 +74,12 @@ class BlogController extends Controller
     public function update(Request $request, $id)
     {
         //
+
+        $Blog = Post::findOrNew($id);
+        $Blog->user_id = auth()->id();
+        $Blog->content = $request->value;
+        $Blog->save();
+        return $Blog->content;
     }
 
     /**

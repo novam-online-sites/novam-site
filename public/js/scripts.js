@@ -60,20 +60,20 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 68);
+/******/ 	return __webpack_require__(__webpack_require__.s = 72);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 68:
+/***/ 72:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(69);
+module.exports = __webpack_require__(73);
 
 
 /***/ }),
 
-/***/ 69:
+/***/ 73:
 /***/ (function(module, exports) {
 
 (function () {
@@ -1201,9 +1201,9 @@ jQuery(window).on('scroll', function () {
 
 //paste this code under the head tag or in a separate js file.
 // Wait for window load
-$(window).load(function () {
+$(window).on('load', function () {
     // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");;
+    $(".se-pre-con").fadeOut("slow");
 });
 
 // Change radio button

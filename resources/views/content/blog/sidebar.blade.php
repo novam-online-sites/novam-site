@@ -1,8 +1,6 @@
 <div class="side-bar-widget">
     @include('content.blog.filters')
     <div class="single-sidebar-widget popular-post">
-        <wysiwyg v-model="myHTML" />
-
         <h3 class="title">Popular Posts</h3>
         <ul>
             <li>
