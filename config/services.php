@@ -37,6 +37,24 @@ return [
     'google' => [
         'verify' => env('GOOGLE_VERIFICATION', 'rCq-x561q5pCPTONsV5JIGjKh0VtCTp5KjVWSf5Vxz8'),
         'analytics' => env('GOOGLE_ANALYTICS_UA', 'rCq-x561q5pCPTONsV5JIGjKh0VtCTp5KjVWSf5Vxz8'),
+        'client_id' => env('GITHUB_CLIENT_ID'), // Your GitHub Client ID
+        'client_secret' => env('GITHUB_CLIENT_SECRET'), // Your GitHub Client Secret
+        'redirect' => 'http://your-callback-url',
+    ],
+    'facebook' => [
+        'client_id' => env('FACEBOOK_CLIENT_ID'), // Your GitHub Client ID
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'), // Your GitHub Client Secret
+        'redirect' => 'http://novamonline.com/login/facebook/callback',
+    ],
+    'linkedin' => [
+        'client_id' => env('GITHUB_CLIENT_ID'), // Your GitHub Client ID
+        'client_secret' => env('GITHUB_CLIENT_SECRET'), // Your GitHub Client Secret
+        'redirect' => 'http://your-callback-url',
+    ],
+    'twitter' => [
+        'client_id' => env('GITHUB_CLIENT_ID'), // Your GitHub Client ID
+        'client_secret' => env('GITHUB_CLIENT_SECRET'), // Your GitHub Client Secret
+        'redirect' => 'http://your-callback-url',
     ],
 
 ];

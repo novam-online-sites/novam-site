@@ -1,7 +1,7 @@
 <template>
     <article :class="[ order? 'dark-overlay': '', 'inner-box', 'bg-img-cover']" :style="bgImage">
         <div class="content">
-            <h3>{{ title }} </h3>
+            <h3>{{ title }}</h3>
             <div class="text">
                 <p>
                     <slot></slot>
