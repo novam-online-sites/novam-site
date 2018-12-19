@@ -39,3 +39,11 @@ Route::resource('blog', Blog\BlogController::class);
 Route::resource('legal', Pages\LegalController::class);
 Route::any('account/{page?}', Auth\AccountController::class)->name('account');
 Route::any('{page?}', IndexController::class)->name('page');
+
+Route::get('update-git', function(){
+    if (Gate::allows('update-git', $user = auth()->user())) {
+    // The current user can update the post...
+    dump('I CAN', $user);
+}
+
+});
