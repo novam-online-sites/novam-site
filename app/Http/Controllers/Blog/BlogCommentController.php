@@ -1,28 +1,20 @@
 <?php
 
-namespace App\Http\Controllers\Pages;
+namespace App\Http\Controllers\Blog;
 
 use Illuminate\Http\Request;
-use App\Models\Pages\SiteMap;
 use App\Http\Controllers\Controller;
 
-class PageController extends Controller
+class BlogCommentController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request, $link = null)
+    public function index()
     {
-        if($link == 'page')
-            $Map = SiteMap::find($id);
-        else
-            $Map = SiteMap::whereLink($link)->first();
-
-        if(!$Map) abort(404);
-        $Page = $Map->page;
-        return view($Map->template, compact('Page'));
+        //
     }
 
     /**
@@ -52,11 +44,9 @@ class PageController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Request $request, $id)
+    public function show($id)
     {
         //
-        if(!($Map = SiteMap::find($id))) abort(404);
-        return view($Map->template);
     }
 
     /**
@@ -68,8 +58,6 @@ class PageController extends Controller
     public function edit($id)
     {
         //
-        if(!($Map = SiteMap::find($id))) abort(404);
-        return view($Map->template, ['edit' => true]);
     }
 
     /**

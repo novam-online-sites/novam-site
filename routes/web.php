@@ -14,7 +14,6 @@ use Laravel\Socialite\Facades\Socialite;
 */
 
 
-
 Route::get('/test', function () {
         return view('welcome');
 });
@@ -26,24 +25,20 @@ Route::get('login/{driver}', 'Auth\OAuthController@redirectTo');
 Route::get('login/{driver}/callback', 'Auth\OAuthController@doCallback');
 Route::post('/passwords/text', 'Auth\ResetPasswordController@sendText')->name('password.text');
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-// Route::domain('{account}.novamonline.com')->group(function () {
-//     Route::any('{page?}/{id?}', function ($account, $id) {
-//     //
-//     dump($account, $id);
-//     });
-// });
+// Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('blog', Blog\BlogController::class);
 Route::resource('legal', Pages\LegalController::class);
 Route::any('account/{page?}', Auth\AccountController::class)->name('account');
-Route::any('{page?}', IndexController::class)->name('page');
+Route::any('/', IndexController::class)->name('index');
+Route::resource('page', Pages\PageController::class);
+Route::resource('{page?}', Pages\PageController::class);
 
-Route::get('update-git', function(){
-    if (Gate::allows('update-git', $user = auth()->user())) {
-    // The current user can update the post...
-    dump('I CAN', $user);
-}
+// Route::get('update-git', function(){
+//     dd($this);
+//     if (!Gate::allows('update-git', $user = auth()->user())) {
+//     // The current user can update the post...
+//     dump('I CAN', $user);
+// }
 
-});
+// });
